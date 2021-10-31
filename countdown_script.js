@@ -37,5 +37,5 @@ function initializeClock(id, endtime){
 }
 
 // End of Sale
-var deadline = 'November 03 2021 23:59:59 UTC+02:00';
+var deadline = 'November 03 2021 23:59:59 UTC+01:00';
 initializeClock('countdown', deadline);
