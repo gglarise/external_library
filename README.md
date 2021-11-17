@@ -1,1 +1,1 @@
-# fancy_friday
+# general external library
