@@ -7,5 +7,9 @@ letter-spacing: 2px !important;
 line-height: 35px !important;
 }
 
+.category-description p {
+margin-top: 15px;
+}  
+  
 }
 
