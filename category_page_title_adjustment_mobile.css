@@ -3,7 +3,8 @@
 .category-description.category-description-top .page-title { 
 text-align: center !important; 
 margin-bottom: -25px;
-  
+letter-spacing: 2px !important;
+line-height: 35px !important;
 }
 
 }
