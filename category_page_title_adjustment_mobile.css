@@ -1,7 +1,7 @@
 @media only screen and (max-width: 768px) {
 
 .category-description.category-description-top .page-title { 
-text-align: center; 
+text-align: center !important; 
 }
 
 }
