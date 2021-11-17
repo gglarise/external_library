@@ -2,6 +2,8 @@
 
 .category-description.category-description-top .page-title { 
 text-align: center !important; 
+margin-bottom: -25px;
+  
 }
 
 }
