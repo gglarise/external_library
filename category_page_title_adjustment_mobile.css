@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
 
-.category-description.category-description-top .page-title { 
+#category .page-title { 
 text-align: center !important; 
 margin-bottom: -25px;
 letter-spacing: 2px !important;
