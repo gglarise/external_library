@@ -13,6 +13,12 @@ margin-top: 20px;
   
 }
 
+@media (min-width: 768px)
+#category .page-title {
+    text-align: center !important; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
 .simpleblog-socialshare-icons .btn-google-plus {
 display: none;
