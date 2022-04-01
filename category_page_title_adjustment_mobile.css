@@ -26,6 +26,11 @@ margin-top: 20px;
 display: none;
 }  
 
+#footer .block-iqitlinksmanager-3 .mwd-payback {
+    margin-top: -5px;
+    padding-left: 12px;
+}
+
 
 /*  
 .product-id-202 .mwd-delivery-today {
