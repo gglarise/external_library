@@ -36,7 +36,9 @@ display: none;
     margin-left: 12px;
 }
 
-
+#footer-copyrights {
+    padding-bottom: 100px!important;
+}
 
 
 /*  
