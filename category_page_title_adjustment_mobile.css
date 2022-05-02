@@ -41,6 +41,12 @@ display: none;
 }
 
 
+.category-description .category-description-top  .mkx blockquote
+{
+    text-align: center;
+}
+
+
 /*  
 .product-id-202 .mwd-delivery-today {
 display:none !important;
