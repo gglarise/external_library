@@ -46,7 +46,7 @@ display: none;
     text-align: center;
 }
 
-. mwd-additional-category-text .card .card-body strong
+.card-body strong
 {
     font-weight: bold!important;
 }
