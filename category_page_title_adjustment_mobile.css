@@ -46,6 +46,11 @@ display: none;
     text-align: center;
 }
 
+. mwd-additional-category-text strong
+{
+    font-weight: bold!important;
+}
+
 
 /*  
 .product-id-202 .mwd-delivery-today {
