@@ -51,7 +51,7 @@ display: none;
     font-weight: bold!important;
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
 
 .mwd-footer-newsletter {
     max-width: 90%!important;
