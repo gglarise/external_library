@@ -58,6 +58,14 @@ display: none;
 }
 }
 
+.product-id-406 .slick-prev {
+    display: none!important;
+}
+
+.product-id-406 .slick-next {
+    display: none!important;
+}
+
 /*  
 .product-id-202 .mwd-delivery-today {
 display:none !important;
