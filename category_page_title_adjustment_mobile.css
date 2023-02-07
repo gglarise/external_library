@@ -97,7 +97,7 @@ img[src*="geschenkgutschein-"] {
 @media (max-width: 450px)
 #product .product-actions .mwd-delivery-today {
     max-width: 66.66667%!important;
-    flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%!important;
 }
 
 /*  
