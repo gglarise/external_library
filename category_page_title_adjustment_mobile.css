@@ -113,3 +113,9 @@ display:none !important;
 display:none !important;
 }
 */
+
+@media (max-width: 768px){
+.product-miniature .thumbnail-container {
+    min-height: auto;
+}
+}
