@@ -142,3 +142,8 @@ font-size: 11px;
     font-weight: 900;
     color: #f08080!important;
 }
+
+
+.category-id-98 .js-product-miniature-wrapper:last-child {
+    display:none;
+}
