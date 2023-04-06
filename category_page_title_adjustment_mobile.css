@@ -125,3 +125,20 @@ display:none !important;
     min-height: auto!important;
 }
 }
+
+.cart-voucher-area .promo-highlighted {
+font-family: "Verlag A","Verlag B";
+font-weight: 700;
+font-size: 11px;
+}
+
+.js-discount .label {
+    font-weight: 900;
+    font-size: 12px;
+}
+
+
+.js-discount .code {
+    font-weight: 900;
+    color: #f08080!important;
+}
