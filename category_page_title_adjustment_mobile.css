@@ -150,7 +150,7 @@ font-size: 11px;
 
 @media (min-width: 768px) {
 .mwd-duftwelten-wrap .mwd-duftwelt {
-    padding: 0 10px!important;
-    float: right!important;
+    padding: 0 15px!important;
+    float: left!important;
 }
 }
