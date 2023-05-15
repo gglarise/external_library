@@ -147,3 +147,10 @@ font-size: 11px;
 .category-id-98 .js-product-miniature-wrapper:last-child {
     display:none;
 }
+
+@media (min-width: 768px) {
+.mwd-duftwelten-wrap .mwd-duftwelt {
+    padding: 0 10px!important;
+    float: right!important;
+}
+}
