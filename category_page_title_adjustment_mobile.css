@@ -162,3 +162,7 @@ display: inline-table!important;
 #cart-gift-box {
 display: none!important;
 }
+
+#mwdmegacheckout-message-box {
+display: none!important;
+}
