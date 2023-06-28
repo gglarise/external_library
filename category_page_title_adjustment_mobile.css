@@ -167,3 +167,6 @@ display: none!important;
 display: none!important;
 }
 
+#content-hook_order_confirmation img {
+    height: 45px!important;
+}
