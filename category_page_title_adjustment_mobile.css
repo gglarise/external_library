@@ -171,6 +171,6 @@ display: none!important;
     height: 45px!important;
 }
 
-a[href^="https://www.larise.com/it/module/psgiftcards/Giftcards"] {
+.my-account-side-links #psgdpr-link a[href^="https://www.larise.com/it/module/psgiftcards/Giftcards"] {
   display: none!important;
 }
