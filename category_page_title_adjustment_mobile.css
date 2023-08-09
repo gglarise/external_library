@@ -170,3 +170,7 @@ display: none!important;
 #content-hook_order_confirmation img {
     height: 45px!important;
 }
+
+a[href^="https://www.larise.com/it/module/psgiftcards/Giftcards"] {
+  display: none;
+}
