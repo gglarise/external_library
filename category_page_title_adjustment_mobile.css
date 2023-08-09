@@ -172,5 +172,5 @@ display: none!important;
 }
 
 a[href^="https://www.larise.com/it/module/psgiftcards/Giftcards"] {
-  display: none;
+  display: none!important;
 }
