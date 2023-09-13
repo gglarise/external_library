@@ -179,37 +179,15 @@ display: none!important;
 .thead-default th:nth-child(2){
    display:none!important;
 }
-
 .thead-default th:nth-child(3){
    display:none!important;
 }
 .thead-default th:nth-child(4){
    width:100%!important;
 }
-td input[name="friendsFirstName[0]"] {
-  display: none!important;
-}
-td input[name="friendsFirstName[1]"] {
-  display: none!important;
-}
-td input[name="friendsFirstName[2]"] {
-  display: none!important;
-}
-td input[name="friendsLastName[0]"] {
-  display: none!important;
-}
-td input[name="friendsLastName[1]"] {
-  display: none!important;
-}
-td input[name="friendsLastName[2]"] {
-  display: none!important;
-}
-
 #list_contacts_form td:nth-child(2),
 td:nth-child(3) {
   display: none!important;
 }
-
-
 }
 
