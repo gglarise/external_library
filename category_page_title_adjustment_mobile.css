@@ -184,10 +184,17 @@ display: none!important;
 }
 .thead-default th:nth-child(4){
    width:100%!important;
+  text-align: center;
 }
 #list_contacts_form td:nth-child(2),
 td:nth-child(3) {
   display: none!important;
+}
+#sponsorship_form li img{
+  height: 23px!important;
+}
+#sponsorship_form li a{
+  line-height: 2!important;
 }
 }
 
