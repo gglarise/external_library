@@ -174,3 +174,44 @@ display: none!important;
 .my-account-side-links a[href^="https://www.larise.com/it/module/psgiftcards/Giftcards"] {
   display: none!important;
 }
+
+@media (max-width: 768px){
+#thead-default tr:nth-child(1)
+{
+   display:none!important;
+}
+
+#thead-default tr:nth-child(2)
+{
+   display:none!important;
+}
+
+#thead-default tr:nth-child(3) th:nth-child(2)
+{
+   width:100%!important;
+}
+
+.parent input[friendsLastName[0]] {
+  display: none!important;
+}
+
+.parent input[friendsLastName[1]] {
+  display: none!important;
+}
+
+.parent input[friendsLastName[2]] {
+  display: none!important;
+}
+
+.parent input[friendsFirstName[0]] {
+  display: none!important;
+}
+
+.parent input[friendsFirstName[1]] {
+  display: none!important;
+}
+
+.parent input[friendsFirstName[2]] {
+  display: none!important;
+}
+}
