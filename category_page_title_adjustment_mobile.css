@@ -176,17 +176,17 @@ display: none!important;
 }
 
 @media (max-width: 768px){
-#thead-default th:nth-child(2)
+.thead-default th:nth-child(2)
 {
    display:none!important;
 }
 
-#thead-default th:nth-child(3)
+.thead-default th:nth-child(3)
 {
    display:none!important;
 }
 
-#thead-default th:nth-child(4)
+.thead-default th:nth-child(4)
 {
    width:100%!important;
 }
