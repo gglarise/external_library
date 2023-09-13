@@ -204,5 +204,12 @@ td input[name="friendsLastName[1]"] {
 td input[name="friendsLastName[2]"] {
   display: none!important;
 }
+
+#list_contacts_form td:nth-child(2),
+td:nth-child(3) {
+  display: none!important;
+}
+
+
 }
 
