@@ -215,3 +215,7 @@ display: none!important;
   display: none!important;
 }
 }
+
+#list_contacts_form tbody tr:nth-child(2) td:nth-child(1) {
+  display: none!important;
+}
