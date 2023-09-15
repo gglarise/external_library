@@ -186,8 +186,10 @@ display: none!important;
    width:100%!important;
   text-align: center;
 }
-#list_contacts_form td:nth-child(2),
-td:nth-child(3) {
+#list_contacts_form td:nth-child(2){
+  display: none!important;
+}
+#list_contacts_form td:nth-child(3){
   display: none!important;
 }
 #sponsorship_form li img{
