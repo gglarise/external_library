@@ -1,0 +1,180 @@
+@media only screen and (max-width: 768px) {
+
+#category .page-title { 
+text-align: center !important; 
+margin-bottom: -15px;
+letter-spacing: 2px !important;
+line-height: 35px !important;
+}
+
+.category-description p {
+margin-top: 20px;
+}  
+  
+}
+
+@media (min-width: 768px){
+
+#category .page-title {
+    text-align: center !important; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+}
+
+.simpleblog-socialshare-icons .btn-google-plus {
+display: none;
+}  
+
+#footer .block-iqitlinksmanager-3 .mwd-payback {
+    margin-top: -10px;
+    margin-left: 12px;
+}
+
+
+#footer .mwd-sendung-verfolgen img {
+    margin-left: 12px;
+}
+
+#footer-copyrights {
+    padding-bottom: 100px!important;
+}
+
+
+.category-description blockquote
+{
+    text-align: center;
+}
+
+.card-body strong
+{
+    font-weight: bold!important;
+}
+
+@media (max-width: 768px){
+
+.mwd-footer-newsletter {
+    max-width: 90%!important;
+}
+}
+
+.product-id-406 .slick-prev {
+    display: none!important;
+}
+
+.product-id-406 .slick-next {
+    display: none!important;
+}
+
+.product-id-407 .slick-prev {
+    display: none!important;
+}
+
+.product-id-407 .slick-next {
+    display: none!important;
+}
+
+.product-id-408 .slick-prev {
+    display: none!important;
+}
+
+.product-id-408 .slick-next {
+    display: none!important;
+}
+
+.product-id-409 .slick-prev {
+    display: none!important;
+}
+
+.product-id-409 .slick-next {
+    display: none!important;
+}
+
+img[src*="geschenkgutschein-"] {
+  transition: none!important;
+}
+
+@media (max-width: 450px){
+#product .product-actions .mwd-delivery-today {
+    max-width: 66.66667%!important;
+    flex: 0 0 66.66667%!important;
+}
+}
+/*  
+.product-id-202 .mwd-delivery-today {
+display:none !important;
+}
+
+.product-id-201 .mwd-delivery-today {
+display:none !important;
+}
+
+.product-id-388 .mwd-delivery-today {
+display:none !important;
+}
+*/
+
+@media (max-width: 768px){
+.product-miniature .thumbnail-container {
+    min-height: auto!important;
+}
+}
+
+@media (min-width: 769px){
+.product-miniature .thumbnail-container {
+    min-height: auto!important;
+}
+}
+
+.cart-voucher-area .promo-highlighted {
+font-family: "Verlag A","Verlag B";
+font-weight: 700;
+font-size: 11px;
+}
+
+.js-discount .label {
+    font-size: 12px;
+    font-family: "Verlag A","Verlag B";
+}
+
+
+.js-discount .code {
+    font-weight: 900;
+    color: #f08080!important;
+}
+
+
+.category-id-98 .js-product-miniature-wrapper:last-child {
+    display:none;
+}
+
+@media (min-width: 768px) {
+.mwd-duftwelten-wrap .mwd-duftwelt {
+    padding: 0 10px!important;
+    float: none!important;
+display: inline-table!important;
+}
+.mwd-duftwelten-wrap {
+display: inline-table!important;
+}
+}
+
+#cart-gift-box {
+display: none!important;
+}
+
+#mwdmegacheckout-message-box {
+display: none!important;
+}
+
+#content-hook_order_confirmation img {
+    height: 45px!important;
+}
+
+.my-account-side-links a[href^="https://www.larise.com/it/module/psgiftcards/Giftcards"] {
+  display: none!important;
+}
+
+#footer {
+    background: #00668c!important;
+}
