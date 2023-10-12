@@ -186,3 +186,8 @@ display: none!important;
 .chat-btn-wrap{
     display: none!important;
 }
+
+#mwdliveticker .widget-header
+{
+    background: none!important;
+}
