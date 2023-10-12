@@ -178,3 +178,11 @@ display: none!important;
 #footer {
     background: #00668c!important;
 }
+
+#mwd-whatsapp-link{
+    display: none!important;
+}
+
+.chat-btn-wrap{
+    display: none!important;
+}
