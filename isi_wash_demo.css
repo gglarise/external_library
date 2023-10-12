@@ -191,3 +191,9 @@ display: none!important;
 {
     background: none!important;
 }
+
+@media (max-width: 768px){
+#mwdliveticker .owl-carousel{
+    padding-top: 90px!important;
+}
+}
