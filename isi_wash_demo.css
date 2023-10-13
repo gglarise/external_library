@@ -207,3 +207,15 @@ width: 30%!important;
 .img-fluid{
 width: 75%!important;
 }}
+
+#_mobile_iqitmegamenu-mobile{
+cursor: default;
+pointer-events: none;        
+text-decoration: none;
+}
+
+#cbp-hrmenu{
+cursor: default;
+pointer-events: none;        
+text-decoration: none;
+}
