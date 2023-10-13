@@ -197,3 +197,8 @@ display: none!important;
     padding-top: 90px!important;
 }
 } */
+
+@media (max-width: 768px){
+.img-fluid{
+width: 30%!important;
+}}
