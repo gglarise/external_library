@@ -218,7 +218,7 @@ border-radius: 8px!important;
     font-weight: bold!important;
 }
 
-.form-control {
+.mwd-emailalerts__popup--show.form-control {
     border-radius: 4px!important;
     border: solid 1px #999!important;
     height: 40px!important;
