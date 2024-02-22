@@ -232,11 +232,11 @@ pointer-events: none;
 text-decoration: none;
 } */
 
-/* #mwdliveticker {
+#mwdliveticker {
 cursor: default;
 pointer-events: none;        
 text-decoration: none;
-} */
+}
 
 #trustbadge-container-98e3dadd90eb493088abdc5597a70810 {
 cursor: default;
@@ -244,8 +244,8 @@ pointer-events: none;
 text-decoration: none;
 }
 
-#elementor-section-wrap {
+/* #elementor-section-wrap {
 cursor: default;
 pointer-events: none;        
 text-decoration: none;
-}
+} */
