@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
 
 #category .page-title { 
 text-align: center !important; 
@@ -100,7 +100,7 @@ img[src*="geschenkgutschein-"] {
     flex: 0 0 66.66667%!important;
 }
 }
-/*  
+
 .product-id-202 .mwd-delivery-today {
 display:none !important;
 }
@@ -113,7 +113,7 @@ display:none !important;
 display:none !important;
 }
 */
-
+/* 
 @media (max-width: 768px){
 .product-miniature .thumbnail-container {
     min-height: auto!important;
@@ -231,4 +231,8 @@ border-radius: 8px!important;
 .mwd-emailalerts__popup-headline {
 font-family: "Verlag A", "Verlag B"!important;
 font-size: 25px!important;
+} */
+
+.product-on-sale .mwd-delivery-today {
+display:none !important;
 }
