@@ -176,7 +176,7 @@ display: none!important;
 }
 
 #footer {
-    background: #00668c!important;
+    background: #a5d7dc!important;
 }
 
 #mwd-whatsapp-link{
@@ -192,11 +192,11 @@ display: none!important;
     background: none!important;
 }
 
-/* @media (max-width: 768px){
+@media (max-width: 768px){
 #mwdliveticker .owl-carousel{
     padding-top: 90px!important;
 }
-} */
+}
 
 @media (max-width: 768px){
 .img-fluid{
@@ -208,7 +208,7 @@ width: 30%!important;
 width: 75%!important;
 }}
 
-#_mobile_iqitmegamenu-mobile{
+/* #_mobile_iqitmegamenu-mobile{
 cursor: default;
 pointer-events: none;        
 text-decoration: none;
@@ -220,31 +220,19 @@ pointer-events: none;
 text-decoration: none;
 }
 
-/* #footer{
-cursor: default;
-pointer-events: none;        
-text-decoration: none;
-} */
-
-/* body{
-cursor: default;
-pointer-events: none;        
-text-decoration: none;
-} */
-
-#mwdliveticker {
+#footer{
 cursor: default;
 pointer-events: none;        
 text-decoration: none;
 }
 
-#trustbadge-container-98e3dadd90eb493088abdc5597a70810 {
+body{
 cursor: default;
 pointer-events: none;        
 text-decoration: none;
 }
 
-/* #elementor-section-wrap {
+#elementor-section-wrap {
 cursor: default;
 pointer-events: none;        
 text-decoration: none;
