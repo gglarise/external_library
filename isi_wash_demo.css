@@ -1,29 +1,23 @@
 @media only screen and (max-width: 768px) {
-
 #category .page-title { 
-text-align: center !important; 
-margin-bottom: -15px;
-letter-spacing: 2px !important;
-line-height: 35px !important;
+    text-align: center !important; 
+    margin-bottom: -15px;
+    letter-spacing: 2px !important;
+    line-height: 35px !important;
 }
-
 .category-description p {
-margin-top: 20px;
-}  
-  
-}
+    margin-top: 20px;
+}}
 
 @media (min-width: 768px){
-
 #category .page-title {
     text-align: center !important; 
     margin-top: 25px;
     margin-bottom: 25px;
-}
-}
+}}
 
 .simpleblog-socialshare-icons .btn-google-plus {
-display: none;
+    display: none!important;
 }  
 
 #footer .block-iqitlinksmanager-3 .mwd-payback {
@@ -41,22 +35,18 @@ display: none;
 }
 
 
-.category-description blockquote
-{
+.category-description blockquote{
     text-align: center;
 }
 
-.card-body strong
-{
+.card-body strong{
     font-weight: bold!important;
 }
 
 @media (max-width: 768px){
-
 .mwd-footer-newsletter {
     max-width: 90%!important;
-}
-}
+}}
 
 .product-id-406 .slick-prev {
     display: none!important;
@@ -91,45 +81,29 @@ display: none;
 }
 
 img[src*="geschenkgutschein-"] {
-  transition: none!important;
+    transition: none!important;
 }
 
 @media (max-width: 450px){
 #product .product-actions .mwd-delivery-today {
     max-width: 66.66667%!important;
     flex: 0 0 66.66667%!important;
-}
-}
-/*  
-.product-id-202 .mwd-delivery-today {
-display:none !important;
-}
-
-.product-id-201 .mwd-delivery-today {
-display:none !important;
-}
-
-.product-id-388 .mwd-delivery-today {
-display:none !important;
-}
-*/
+}}
 
 @media (max-width: 768px){
 .product-miniature .thumbnail-container {
     min-height: auto!important;
-}
-}
+}}
 
 @media (min-width: 769px){
 .product-miniature .thumbnail-container {
     min-height: auto!important;
-}
-}
+}}
 
 .cart-voucher-area .promo-highlighted {
-font-family: "Verlag A","Verlag B";
-font-weight: 700;
-font-size: 11px;
+    font-family: "Verlag A","Verlag B";
+    font-weight: 700;
+    font-size: 11px;
 }
 
 .js-discount .label {
@@ -137,12 +111,10 @@ font-size: 11px;
     font-family: "Verlag A","Verlag B";
 }
 
-
 .js-discount .code {
     font-weight: 900;
     color: #f08080!important;
 }
-
 
 .category-id-98 .js-product-miniature-wrapper:last-child {
     display:none;
@@ -152,55 +124,27 @@ font-size: 11px;
 .mwd-duftwelten-wrap .mwd-duftwelt {
     padding: 0 10px!important;
     float: none!important;
-display: inline-table!important;
+    display: inline-table!important;
 }
 .mwd-duftwelten-wrap {
-display: inline-table!important;
-}
-}
+    display: inline-table!important;
+}}
 
 #cart-gift-box {
-display: none!important;
+  display: none!important;
 }
 
 #mwdmegacheckout-message-box {
-display: none!important;
+  display: none!important;
 }
 
 #content-hook_order_confirmation img {
     height: 45px!important;
 }
 
-.my-account-side-links a[href^="https://www.larise.com/it/module/psgiftcards/Giftcards"] {
-  display: none!important;
-}
-
-
-#mwd-whatsapp-link{
-    display: none!important;
-}
-
-.chat-btn-wrap{
-    display: none!important;
-}
-
-#mwdliveticker .widget-header
-{
-    background: none!important;
-}
-
-/* @media (max-width: 768px){
-#mwdliveticker .owl-carousel{
-    padding-top: 90px!important;
-}
-} */
-
 @media (max-width: 768px){
-.img-fluid{
-width: 30%!important;
-}}
-
-@media (min-width: 769px){
-.img-fluid{
-width: 75%!important;
+.col-mobile-logo .img-fluid{
+  width: 30%!important;
+  padding-top: 5px!important;
+  padding-bottom: 5px!important;
 }}
