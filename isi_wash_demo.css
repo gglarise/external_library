@@ -239,6 +239,5 @@ text-decoration: none;
 } */
 
 li.cbp-hropen > a:hover {
-    background: #a5d7dc;
-    color: #fff;
+    background: #a5d7dc!important;
 }
