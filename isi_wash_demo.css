@@ -30,11 +30,6 @@
     margin-left: 12px;
 }
 
-#footer-copyrights {
-    padding-bottom: 100px!important;
-}
-
-
 .category-description blockquote{
     text-align: center;
 }
@@ -43,42 +38,10 @@
     font-weight: bold!important;
 }
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
 .mwd-footer-newsletter {
     max-width: 90%!important;
-}}
-
-.product-id-406 .slick-prev {
-    display: none!important;
-}
-
-.product-id-406 .slick-next {
-    display: none!important;
-}
-
-.product-id-407 .slick-prev {
-    display: none!important;
-}
-
-.product-id-407 .slick-next {
-    display: none!important;
-}
-
-.product-id-408 .slick-prev {
-    display: none!important;
-}
-
-.product-id-408 .slick-next {
-    display: none!important;
-}
-
-.product-id-409 .slick-prev {
-    display: none!important;
-}
-
-.product-id-409 .slick-next {
-    display: none!important;
-}
+}} */
 
 img[src*="geschenkgutschein-"] {
     transition: none!important;
@@ -90,15 +53,9 @@ img[src*="geschenkgutschein-"] {
     flex: 0 0 66.66667%!important;
 }}
 
-@media (max-width: 768px){
 .product-miniature .thumbnail-container {
     min-height: auto!important;
-}}
-
-@media (min-width: 769px){
-.product-miniature .thumbnail-container {
-    min-height: auto!important;
-}}
+}
 
 .cart-voucher-area .promo-highlighted {
     font-family: "Verlag A","Verlag B";
@@ -116,9 +73,9 @@ img[src*="geschenkgutschein-"] {
     color: #f08080!important;
 }
 
-.category-id-98 .js-product-miniature-wrapper:last-child {
-    display:none;
-}
+/* .category-id-98 .js-product-miniature-wrapper:last-child {
+    display:none!important;
+} */
 
 @media (min-width: 768px) {
 .mwd-duftwelten-wrap .mwd-duftwelt {
@@ -126,9 +83,9 @@ img[src*="geschenkgutschein-"] {
     float: none!important;
     display: inline-table!important;
 }
-.mwd-duftwelten-wrap {
+/* .mwd-duftwelten-wrap {
     display: inline-table!important;
-}}
+}} */
 
 #cart-gift-box {
   display: none!important;
