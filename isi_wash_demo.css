@@ -82,10 +82,10 @@ img[src*="geschenkgutschein-"] {
     padding: 0 10px!important;
     float: none!important;
     display: inline-table!important;
-}
+}}
 /* .mwd-duftwelten-wrap {
     display: inline-table!important;
-}} */
+} */
 
 #cart-gift-box {
   display: none!important;
@@ -108,9 +108,4 @@ img[src*="geschenkgutschein-"] {
 
 a[href="https://www.larise.com/de/payback/"] {
   display:none!important;
-}
-
-#mobile-header .col-mobile-logo {
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
