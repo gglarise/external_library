@@ -109,3 +109,8 @@ img[src*="geschenkgutschein-"] {
 a[href="https://www.larise.com/de/payback/"] {
   display:none!important;
 }
+
+#mobile-header .col-mobile-logo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
