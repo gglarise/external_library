@@ -1,7 +1,7 @@
-a = document.getElementById("cart");
-b = document.getElementById("cart-gift-box");
-if(document.body.contains(a)){
-	b.style.visibility = "visible"; 
-} else {
- b.style.visibility = "hidden"; 
-}
+$(document).ready(function(){
+    if( $('#cart').css('display') == 'block' ) {
+        $('#cart-gift-box').css('display', 'none');
+    } else {
+        $('#cart-gift-box').css('display', 'block');
+    }
+});
