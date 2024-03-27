@@ -129,3 +129,8 @@ a[href="https://www.larise.com/de/payback/"] {
     }
 }
 
+.cart-line-product-actions-wrap {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
