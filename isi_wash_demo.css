@@ -134,3 +134,15 @@ a[href="https://www.larise.com/de/payback/"] {
     top: 20px;
     right: 15px;
 }
+
+.cart-shop-logos .netreviewsWidgetwrapper {
+    width: auto;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    float: right;
+}
+
+.cart-shop-logos {
+    margin: 20px 0;
+}
