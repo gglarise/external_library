@@ -150,3 +150,11 @@ a[href="https://www.larise.com/de/payback/"] {
 .cart-summary-line {
     margin: 10px 0;
 }
+
+.mwdcartcombinations #mwdcartcombinations_select, .mwdcartquantities .mwdcartquantities_select {
+    max-width: 99px;
+    width: 100%;
+    display: inline-block;
+    min-height: 3.157rem;
+    margin-bottom: 10px;
+}
