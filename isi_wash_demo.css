@@ -113,3 +113,15 @@ a[href="https://www.larise.com/de/payback/"] {
 .mwd-product-headline h1.page-title {
         width: 50%!important;
     }
+
+@media (min-width: 768px) {
+    #footer .netreviewsWidgetwrapper {
+        display: inline-block!important;
+    }
+}
+
+@media (min-width: 768px) {
+    .mwd-echte-bewertungen-and-trusted-shop-in-footer-wrap {
+        width: 100%!important;
+    }
+}
