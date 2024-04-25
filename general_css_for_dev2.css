@@ -10157,20 +10157,20 @@ small.label,small.value {
     text-transform: uppercase
 }
 
-.form-control-select {
+/* .form-control-select {
     height: 2.625rem;
     -moz-appearance: none;
     -webkit-appearance: none;
     padding-right: 2rem
-}
+} */
 
 .form-control-select::-ms-expand {
     display: none
 }
 
-select.form-control:not([size]):not([multiple]) {
+/* select.form-control:not([size]):not([multiple]) {
     height: 2.625rem
-}
+} */
 
 .form-control-valign {
     padding-top: .5rem
