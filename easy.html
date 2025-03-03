@@ -1,0 +1,2050 @@
+
+<!doctype html>
+<html lang="de">
+
+<head>
+    
+        
+  <meta charset="utf-8">
+
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+  
+
+
+  
+  
+
+
+
+  <title>Warenkorb</title>
+  
+    
+  
+  
+    
+  
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+    
+      <link rel="canonical" href="https://dev.isi-wash.com/warenkorb">
+    
+
+  
+      
+
+  
+      
+
+ 
+
+
+
+
+  
+
+  
+
+  
+    
+  
+
+
+
+    <meta property="og:title" content="Warenkorb"/>
+    <meta property="og:url" content="https://dev.isi-wash.com/warenkorb?action=show"/>
+    <meta property="og:site_name" content="ISI WASH"/>
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+
+
+          <meta property="og:image" content="https://dev.isi-wash.com/img/logo-1724063471.jpg" />
+    
+
+
+
+
+
+      <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+  
+
+
+  <meta name="theme-color" content="#005a78">
+  <meta name="msapplication-navbutton-color" content="#005a78">
+
+
+  <link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico?1724063516">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico?1724063516">
+    
+
+
+
+
+    <link rel="stylesheet" href="https://dev.isi-wash.com/themes/warehouse/assets/css/theme.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/amazonpay/views/css/front.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/paypal/views/css/paypal_fo.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/klarnapayment/views/css/front/klarna_express_checkout.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/revsliderprestashop/public/assets/css/rs6.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/iqitcountdown/views/css/front.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/mwdpscommons/views/css/features/mwd-environment-badge.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/mwdpscommons/views/css/features/widgets/mwd-widget-embed.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/mwdpscommons/views/css/features/widgets/mwd-widget-usp.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/mwdpscommons/views/css/vendor/slick-1.8.1.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/mwdpscommons/views/css/vendor/slick-theme-1.8.1.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/netreviews/views/css/avisverifies-template1.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/mwdpsisiwash//views/css/widgets/elementor-custom-button.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/js/jquery/plugins/fancybox/jquery.fancybox.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/iqitelementor/views/css/frontend.min.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/iqitmegamenu/views/css/front.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/themes/warehouse/modules/ph_simpleblog/views/css/ph_simpleblog-17.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/ph_simpleblog/css/custom.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/iqitthemeeditor/views/css/custom_s_1.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/modules/iqitmegamenu/views/css/iqitmegamenu_s_1.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://dev.isi-wash.com/themes/warehouse/assets/css/custom.css" type="text/css" media="all">
+
+
+
+
+<link rel="preload" as="font"
+      href="https://dev.isi-wash.com/themes/warehouse/assets/css/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0"
+      type="font/woff" crossorigin="anonymous">
+<link rel="preload" as="font"
+      href="https://dev.isi-wash.com/themes/warehouse/assets/css/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0"
+      type="font/woff2" crossorigin="anonymous">
+
+
+<link  rel="preload stylesheet"  as="style" href="https://dev.isi-wash.com/themes/warehouse/assets/css/font-awesome/css/font-awesome-preload.css"
+       type="text/css" crossorigin="anonymous">
+
+
+
+
+
+    <script src="https://js.stripe.com/v3/" ></script>
+
+
+  <script>
+        var amazonpay = {"is_prestashop16":false,"merchant_id":"A30HOOEWG2857D","public_key_id":"AGCD3TQVXXI6MDNVYXATM2GP","amazonCheckoutSessionId":"0f2f2427-2585-4a81-9b56-53556c559193","isInAmazonPayCheckout":"true","loginButtonCode":"<div class=\"amzbuttoncontainer\">\n    <h3 class=\"page-subheading\">\n        Nutzen Sie Ihren Amazon Account\n    <\/h3>\n    <p>\n        Mit Amazon und Login mit Amazon k\u00f6nnen Sie sich komfortabel anmelden und die Versand- und Zahlungsinformationen aus Ihrem Amazon Konto nutzen.\n    <\/p>\n    <div\n        id=\"AMAZONPAYLOGIN_17409984049067\"\n        class=\"amazonPayButton amazonLogin\"\n        data-placement=\"Cart\"\n        data-color=\"Gold\"\n        data-design=\"\"\n        data-rendered=\"0\"\n>\n<\/div>\n<\/div>\n","showInCheckoutSection":"false","showInLoginSection":"false","amazonPayCheckoutSessionURL":"https:\/\/dev.isi-wash.com\/module\/amazonpay\/createcheckoutsession","amazonPayCheckoutSetDeliveryOptionURL":"https:\/\/dev.isi-wash.com\/module\/amazonpay\/checkout?ajax=1&action=selectDeliveryOption","amazonPayCheckoutAddressFormAction":"https:\/\/dev.isi-wash.com\/module\/amazonpay\/checkout","amazonPayCheckoutRefreshAddressFormURL":"https:\/\/dev.isi-wash.com\/module\/amazonpay\/checkout?ajax=1&action=addressForm","sandbox":true,"customerCurrencyCode":"EUR","estimatedOrderAmount":"109.90","ledgerCurrency":"EUR","checkoutType":"PayAndShip","checkoutLanguage":"de_DE","button_payload":"{\"webCheckoutDetails\":{\"checkoutReviewReturnUrl\":\"https:\/\/dev.isi-wash.com\/module\/amazonpay\/initcheckout?decoupled=1\",\"checkoutResultReturnUrl\":\"https:\/\/dev.isi-wash.com\/module\/amazonpay\/validation\"},\"platformId\":\"A1AOZCKI9MBRZA\",\"storeId\":\"amzn1.application-oa2-client.c7146a039a8f434ba4b52b8522423cad\",\"paymentDetails\":{\"presentmentCurrency\":\"EUR\"},\"deliverySpecifications\":{\"addressRestrictions\":{\"type\":\"Allowed\",\"restrictions\":{\"DE\":{},\"AT\":{}}}}}","button_signature":"Xqnv8kPqiZUg+GlomZqPoiSLQ6YlulmnJsDPng7xJ41afJoYOmAoeMBZArw2gCLoML8SJvp6Ky9EKa03Y6O\/bCX0jCj53M+1\/9rZZrlgcDPkYTgcKYM9C\/TCN4vDwfzTZzhpGLnmAiLAJpgg5\/T\/+PrRSQWLQh6leLedZoOJhGfMwz2W27e9xtKz4LRMwoNMD4p4EloroBRabtLyP4YV7TEc6Yu0rV4+mLY+iUtpvjOEKLPrsYdQWZWpZnUKuACu+jtDQpWicpdIzk0WTVPs50wh9MwYubvFX0g\/3dO4xvR1BhlZahNYeaHcXvtv0XxhbnrYIgwJe5STeVmGBpRWTQ==","button_payload_apb":"{\"webCheckoutDetails\":{\"checkoutResultReturnUrl\":\"https:\/\/dev.isi-wash.com\/module\/amazonpay\/validation?apb=1\",\"checkoutMode\":\"ProcessOrder\"},\"platformId\":\"A1AOZCKI9MBRZA\",\"storeId\":\"amzn1.application-oa2-client.c7146a039a8f434ba4b52b8522423cad\",\"paymentDetails\":{\"presentmentCurrency\":\"EUR\",\"paymentIntent\":\"AuthorizeWithCapture\",\"chargeAmount\":{\"amount\":\"109.9\",\"currencyCode\":\"EUR\"}},\"scopes\":[\"name\",\"email\",\"phoneNumber\",\"billingAddress\"],\"merchantMetadata\":{\"merchantStoreName\":\"ISI WASH\",\"customInformation\":\"created by patworx, PrestaShop 8.1.7,4.2.3\"},\"addressDetails\":{\"name\":\"Max Mustermann\",\"addressLine1\":\"Sch\u00fctzstra\u00dfe 123\",\"addressLine2\":\"\",\"city\":\"M\u00fcnchen\",\"postalCode\":\"80939\",\"countryCode\":\"DE\",\"stateOrRegion\":\"\",\"phoneNumber\":\"+491731112222\"}}","button_signature_apb":"g4gYYMlP5uS7ldAIHVE\/ju9LuGKCQOyrwdjegtTPEeKdVL\/SjKcuTLVnN6FZPvsjXT4J3xBGQ2RmSZw4O+HvluJrbokTyENJULtjJhhreMkz7NtIyliAMwn2z+w88EfH2xu5kCfOK+NJzesuE23p5dfEP0mPR2scZpjde6XBxMn58YF5O8I3KXEzmU4t7Uvcw79IWYrT7\/Wd2J0ZC9YeSl\/98flH4VR9oCK0fBRDWJCow6spFfdhVBJ3+OoqSk0+xqF0l6hphgnGoUkmbQw1s\/sx\/16Oy4ndFSJeFZBXmOUa8I0CR7Ro2vynevAcykR1QldYLX30wcUczKGtqV3cwg==","login_button_payload":"{\"signInReturnUrl\":\"https:\/\/dev.isi-wash.com\/module\/amazonpay\/processlogin\",\"storeId\":\"amzn1.application-oa2-client.c7146a039a8f434ba4b52b8522423cad\",\"signInScopes\":[\"name\",\"email\",\"postalCode\"]}","login_button_signature":"hR5gyfeSSF4ZEyRadt4cDTf\/k1Dlyu+VbFJRmGiaiUQhMfxqXvsHSbCEBfGaYWE2erG6oqd0vzsgrywYxs9dlebooFd6HA0ddeu+sY3KH98i0TZOwpR7QVCt8wxA0XfwvBLGYU0LY8HAaIxP7HvfVljPfhnnVemVYex1uximb4xKX++jdNY8BHid5M2U3onysh1sPmUJ0a9c\/ChJOvfyGTrjq5Pex7lH\/1KFfXPw11hyrZ2pAXzwfLJ+MvCwls+a74SJZN1+JzzneZXx3ZnffArz16JxJAaP8Y0fv2hWCIu5ZPlkUOmwV3T+gZGRwj40zt59UF8J+ZzBcidg+6K4zQ==","login_to_checkout_button_payload":"{\"signInReturnUrl\":\"https:\/\/dev.isi-wash.com\/module\/amazonpay\/processlogin?toCheckout=1\",\"storeId\":\"amzn1.application-oa2-client.c7146a039a8f434ba4b52b8522423cad\",\"signInScopes\":[\"name\",\"email\",\"postalCode\"]}","login_to_checkout_button_signature":"OfpzzNQ3byaIgYctWXvEM6zfhxgbUB80Vwx\/m9rtnaowmA3T6eAtKy6XcHlR73QJD8LTGOnvCz3Q85m1dL4n+mgNj92vIgRFSDmJmOI38CcX59v2cwQYz5Gvov8ePSnLqUDctQ+3dmoQ751eoqOmEZTfqkNJsA0RgF1WjcIFmmI3ErnExjGvno7naorzzeCMpr1383YNJNeV8Mgfd6IkkIZf3RGLzln+ZHWY+VT8r4nVIGUOYXLTj7ejPeZThUmaCxy9NziGHuXd5yHOJJiu+nj8QZZsqtU4UL6atnLmN7h7mFvMjkhXskpijZ10Mq5DFqfMW1JwNUSwexMD7CZKXQ==","legacy_address_form_action":"https:\/\/dev.isi-wash.com\/module\/amazonpay\/setaddresslegacy?amazonCheckoutSessionId=0f2f2427-2585-4a81-9b56-53556c559193"};
+        var apple_pay_button_theme = "black";
+        var apple_pay_button_type = "plain";
+        var capture_method = "automatic";
+        var dm_hash = "3GU8JRP1F";
+        var dm_mode = 0;
+        var elementorFrontendConfig = {"isEditMode":"","stretchedSectionContainer":"","instagramToken":"","is_rtl":false,"ajax_csfr_token_url":"https:\/\/dev.isi-wash.com\/module\/iqitelementor\/Actions?process=handleCsfrToken&ajax=1"};
+        var express_checkout = "1";
+        var google_pay_button_theme = "black";
+        var google_pay_button_type = "plain";
+        var handle_order_action_url = "https:\/\/dev.isi-wash.com\/module\/stripe_official\/handleOrderAction";
+        var iqitTheme = {"rm_sticky":"down","rm_breakpoint":0,"op_preloader":"0","cart_style":"side","cart_confirmation":"open","h_layout":"2","f_fixed":"","f_layout":"2","h_absolute":"0","h_sticky":"header","hw_width":"inherit","mm_content":"desktop","hm_submenu_width":"default","h_search_type":"full","pl_lazyload":true,"pl_infinity":false,"pl_rollover":false,"pl_crsl_autoplay":false,"pl_slider_ld":4,"pl_slider_d":4,"pl_slider_t":3,"pl_slider_p":2,"pp_thumbs":"left","pp_zoom":"none","pp_image_layout":"carousel","pp_tabs":"tabha","pl_grid_qty":false};
+        var iqitcountdown_days = "d.";
+        var iqitmegamenu = {"sticky":"false","containerSelector":"#wrapper > .container"};
+        var klarnapayment = {"expressCheckoutData":"klarnapayment_express_checkout_data","expressCheckoutUrl":"https:\/\/dev.isi-wash.com\/module\/klarnapayment\/expressCheckout","staticToken":"ba5f799e77fe377f06f7a048087831fc","client_identifier":"PK2347136 ","theme":"default","shape":"default","container":".klarnapayment-kec-wrapper","locale":"de-DE","checkoutUrl":"https:\/\/dev.isi-wash.com\/Bestellung?newAddress=delivery","isProductPage":false};
+        var pay_pal_button_theme = "black";
+        var pay_pal_button_type = "paypal";
+        var postcode = "66538";
+        var prestashop = {"cart":{"products":[{"add_to_cart_url":"https:\/\/dev.isi-wash.com\/warenkorb?add=1&id_product=20&id_product_attribute=0&token=ba5f799e77fe377f06f7a048087831fc","id":20,"attributes":[],"show_price":true,"weight_unit":"kg","url":"https:\/\/dev.isi-wash.com\/waschkissen","canonical_url":"https:\/\/dev.isi-wash.com\/waschkissen","condition":false,"embedded_attributes":{"id_product":20,"id_manufacturer":0,"on_sale":0,"online_only":0,"ecotax":"0.000000","quantity":2,"minimal_quantity":1,"price":"54,95\u00a0\u20ac","reference":"001","customizable":0,"condition":"new","description_short":"<div class=\"usp-container\"><br \/><div class=\"usp-item\" style=\"padding-bottom: 15px;\"><span style=\"color: green; font-size: 20px; display: inline-block;\">\u2714<\/span><br \/><h3 class=\"usp-title\" style=\"display: inline-block; margin-bottom: 0!important;\">Kostenersparnis bis -80%<\/h3><br \/><p class=\"usp-text\">Gegen\u00fcber herk\u00f6mmlichen Waschmitteln bis zu -80% g\u00fcnstiger pro Waschgang<\/p><br \/><\/div><br \/><div class=\"usp-item\" style=\"padding-bottom: 15px;\"><span style=\"color: green; font-size: 20px; display: inline-block;\">\u2714<\/span><br \/><h3 class=\"usp-title\" style=\"display: inline-block; margin-bottom: 0!important;\">Hautvertr\u00e4glich - Hypoallergen<\/h3><br \/><p class=\"usp-text\">Von DERMATEST mit Bestnote \"EXCELLENT\" bewertet - ideal f\u00fcr Babies und Allergiker<\/p><br \/><\/div><br \/><div class=\"usp-item\" style=\"padding-bottom: 15px;\"><span style=\"color: green; font-size: 20px; display: inline-block;\">\u2714<\/span><br \/><h3 class=\"usp-title\" style=\"display: inline-block; margin-bottom: 0!important;\">30 Tage Geld-Zur\u00fcck-Garantie<\/h3><br \/><p class=\"usp-text\">Einfach und unkompliziert ohne Angebabe von Gr\u00fcnden zu retournieren<\/p><br \/><\/div><br \/><\/div>","link_rewrite":"waschkissen","name":"Waschkissen - 150gr","available_now":"","available_later":"","new":0,"id_product_attribute":0,"id_customization":null,"category":"startseite","id_image":"20-54","reduction":10,"price_without_reduction":64.95,"specific_prices":{"id_specific_price":3,"id_specific_price_rule":0,"id_cart":0,"id_product":20,"id_shop":1,"id_shop_group":0,"id_currency":1,"id_country":1,"id_group":0,"id_customer":0,"id_product_attribute":0,"price":"54.579832","from_quantity":1,"reduction":"10.000000","reduction_tax":1,"reduction_type":"amount","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":14},"features":[{"id_feature":3,"id_product":20,"id_feature_value":11},{"id_feature":4,"id_product":20,"id_feature_value":12},{"id_feature":5,"id_product":20,"id_feature_value":18}],"attributes":[],"rate":19,"tax_name":"MwSt. DE 19%","pack":false,"ecotax_rate":0,"price_amount":54.95,"quantity_wanted":2},"quantity_discounts":[],"reference_to_display":"001","seo_availability":"https:\/\/schema.org\/InStock","labels":{"tax_short":"(inkl. MwSt.)","tax_long":"Bruttopreis"},"ecotax":{"value":"0,00\u00a0\u20ac","amount":"0.000000","rate":0},"flags":{"discount":{"type":"discount","label":"-10,00\u00a0\u20ac"}},"main_variants":[],"id_product":20,"id_manufacturer":0,"on_sale":0,"online_only":0,"ean13":"9120137090017","isbn":"","upc":"","quantity":2,"minimal_quantity":1,"price":"54,95\u00a0\u20ac","unit_price":"","reference":"001","customizable":0,"description_short":"<div class=\"usp-container\"><br \/><div class=\"usp-item\" style=\"padding-bottom: 15px;\"><span style=\"color: green; font-size: 20px; display: inline-block;\">\u2714<\/span><br \/><h3 class=\"usp-title\" style=\"display: inline-block; margin-bottom: 0!important;\">Kostenersparnis bis -80%<\/h3><br \/><p class=\"usp-text\">Gegen\u00fcber herk\u00f6mmlichen Waschmitteln bis zu -80% g\u00fcnstiger pro Waschgang<\/p><br \/><\/div><br \/><div class=\"usp-item\" style=\"padding-bottom: 15px;\"><span style=\"color: green; font-size: 20px; display: inline-block;\">\u2714<\/span><br \/><h3 class=\"usp-title\" style=\"display: inline-block; margin-bottom: 0!important;\">Hautvertr\u00e4glich - Hypoallergen<\/h3><br \/><p class=\"usp-text\">Von DERMATEST mit Bestnote \"EXCELLENT\" bewertet - ideal f\u00fcr Babies und Allergiker<\/p><br \/><\/div><br \/><div class=\"usp-item\" style=\"padding-bottom: 15px;\"><span style=\"color: green; font-size: 20px; display: inline-block;\">\u2714<\/span><br \/><h3 class=\"usp-title\" style=\"display: inline-block; margin-bottom: 0!important;\">30 Tage Geld-Zur\u00fcck-Garantie<\/h3><br \/><p class=\"usp-text\">Einfach und unkompliziert ohne Angebabe von Gr\u00fcnden zu retournieren<\/p><br \/><\/div><br \/><\/div>","link_rewrite":"waschkissen","name":"Waschkissen - 150gr","available_now":"","available_later":"","new":0,"id_product_attribute":0,"cart_quantity":2,"id_customization":null,"manufacturer_name":null,"category":"startseite","id_image":"20-54","legend":"","reduction":10,"price_without_reduction":64.95,"specific_prices":{"id_specific_price":3,"id_specific_price_rule":0,"id_cart":0,"id_product":20,"id_shop":1,"id_shop_group":0,"id_currency":1,"id_country":1,"id_group":0,"id_customer":0,"id_product_attribute":0,"price":"54.579832","from_quantity":1,"reduction":"10.000000","reduction_tax":1,"reduction_type":"amount","from":"0000-00-00 00:00:00","to":"0000-00-00 00:00:00","score":14},"stock_quantity":-179,"price_with_reduction":54.95,"price_with_reduction_without_tax":46.176471,"total":"109,90\u00a0\u20ac","total_wt":109.9,"price_wt":54.95,"allow_oosp":true,"attributes_small":"","rate":19,"tax_name":"MwSt. DE 19%","pack":false,"ecotax_rate":0,"remove_from_cart_url":"https:\/\/dev.isi-wash.com\/warenkorb?delete=1&id_product=20&id_product_attribute=0&token=ba5f799e77fe377f06f7a048087831fc","up_quantity_url":"https:\/\/dev.isi-wash.com\/warenkorb?update=1&id_product=20&id_product_attribute=0&token=ba5f799e77fe377f06f7a048087831fc&op=up","down_quantity_url":"https:\/\/dev.isi-wash.com\/warenkorb?update=1&id_product=20&id_product_attribute=0&token=ba5f799e77fe377f06f7a048087831fc&op=down","update_quantity_url":"https:\/\/dev.isi-wash.com\/warenkorb?update=1&id_product=20&id_product_attribute=0&token=ba5f799e77fe377f06f7a048087831fc","price_amount":54.95,"quantity_wanted":2,"images":[{"cover":1,"id_image":54,"legend":"Waschkissen - 150gr","position":1,"bySize":{"small_default":{"url":"https:\/\/dev.isi-wash.com\/54-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-small_default\/waschkissen.jpg"}},"cart_default":{"url":"https:\/\/dev.isi-wash.com\/54-cart_default\/waschkissen.jpg","width":125,"height":162,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-cart_default\/waschkissen.jpg"}},"home_default":{"url":"https:\/\/dev.isi-wash.com\/54-home_default\/waschkissen.jpg","width":236,"height":305,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-home_default\/waschkissen.jpg"}},"large_default":{"url":"https:\/\/dev.isi-wash.com\/54-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-large_default\/waschkissen.jpg"}},"medium_default":{"url":"https:\/\/dev.isi-wash.com\/54-medium_default\/waschkissen.jpg","width":452,"height":584,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-medium_default\/waschkissen.jpg"}},"thickbox_default":{"url":"https:\/\/dev.isi-wash.com\/54-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-thickbox_default\/waschkissen.jpg"}}},"small":{"url":"https:\/\/dev.isi-wash.com\/54-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-small_default\/waschkissen.jpg"}},"medium":{"url":"https:\/\/dev.isi-wash.com\/54-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-large_default\/waschkissen.jpg"}},"large":{"url":"https:\/\/dev.isi-wash.com\/54-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-thickbox_default\/waschkissen.jpg"}},"associatedVariants":[]},{"cover":null,"id_image":58,"legend":"Waschkissen - 150gr","position":2,"bySize":{"small_default":{"url":"https:\/\/dev.isi-wash.com\/58-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/58-small_default\/waschkissen.jpg"}},"cart_default":{"url":"https:\/\/dev.isi-wash.com\/58-cart_default\/waschkissen.jpg","width":125,"height":162,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/58-cart_default\/waschkissen.jpg"}},"home_default":{"url":"https:\/\/dev.isi-wash.com\/58-home_default\/waschkissen.jpg","width":236,"height":305,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/58-home_default\/waschkissen.jpg"}},"large_default":{"url":"https:\/\/dev.isi-wash.com\/58-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/58-large_default\/waschkissen.jpg"}},"medium_default":{"url":"https:\/\/dev.isi-wash.com\/58-medium_default\/waschkissen.jpg","width":452,"height":584,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/58-medium_default\/waschkissen.jpg"}},"thickbox_default":{"url":"https:\/\/dev.isi-wash.com\/58-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/58-thickbox_default\/waschkissen.jpg"}}},"small":{"url":"https:\/\/dev.isi-wash.com\/58-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/58-small_default\/waschkissen.jpg"}},"medium":{"url":"https:\/\/dev.isi-wash.com\/58-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/58-large_default\/waschkissen.jpg"}},"large":{"url":"https:\/\/dev.isi-wash.com\/58-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/58-thickbox_default\/waschkissen.jpg"}},"associatedVariants":[]},{"cover":null,"id_image":51,"legend":"Waschkissen - 150gr","position":3,"bySize":{"small_default":{"url":"https:\/\/dev.isi-wash.com\/51-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/51-small_default\/waschkissen.jpg"}},"cart_default":{"url":"https:\/\/dev.isi-wash.com\/51-cart_default\/waschkissen.jpg","width":125,"height":162,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/51-cart_default\/waschkissen.jpg"}},"home_default":{"url":"https:\/\/dev.isi-wash.com\/51-home_default\/waschkissen.jpg","width":236,"height":305,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/51-home_default\/waschkissen.jpg"}},"large_default":{"url":"https:\/\/dev.isi-wash.com\/51-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/51-large_default\/waschkissen.jpg"}},"medium_default":{"url":"https:\/\/dev.isi-wash.com\/51-medium_default\/waschkissen.jpg","width":452,"height":584,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/51-medium_default\/waschkissen.jpg"}},"thickbox_default":{"url":"https:\/\/dev.isi-wash.com\/51-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/51-thickbox_default\/waschkissen.jpg"}}},"small":{"url":"https:\/\/dev.isi-wash.com\/51-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/51-small_default\/waschkissen.jpg"}},"medium":{"url":"https:\/\/dev.isi-wash.com\/51-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/51-large_default\/waschkissen.jpg"}},"large":{"url":"https:\/\/dev.isi-wash.com\/51-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/51-thickbox_default\/waschkissen.jpg"}},"associatedVariants":[]},{"cover":null,"id_image":46,"legend":"Waschkissen - 150gr","position":4,"bySize":{"small_default":{"url":"https:\/\/dev.isi-wash.com\/46-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/46-small_default\/waschkissen.jpg"}},"cart_default":{"url":"https:\/\/dev.isi-wash.com\/46-cart_default\/waschkissen.jpg","width":125,"height":162,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/46-cart_default\/waschkissen.jpg"}},"home_default":{"url":"https:\/\/dev.isi-wash.com\/46-home_default\/waschkissen.jpg","width":236,"height":305,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/46-home_default\/waschkissen.jpg"}},"large_default":{"url":"https:\/\/dev.isi-wash.com\/46-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/46-large_default\/waschkissen.jpg"}},"medium_default":{"url":"https:\/\/dev.isi-wash.com\/46-medium_default\/waschkissen.jpg","width":452,"height":584,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/46-medium_default\/waschkissen.jpg"}},"thickbox_default":{"url":"https:\/\/dev.isi-wash.com\/46-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/46-thickbox_default\/waschkissen.jpg"}}},"small":{"url":"https:\/\/dev.isi-wash.com\/46-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/46-small_default\/waschkissen.jpg"}},"medium":{"url":"https:\/\/dev.isi-wash.com\/46-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/46-large_default\/waschkissen.jpg"}},"large":{"url":"https:\/\/dev.isi-wash.com\/46-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/46-thickbox_default\/waschkissen.jpg"}},"associatedVariants":[]},{"cover":null,"id_image":52,"legend":"Waschkissen - 150gr","position":5,"bySize":{"small_default":{"url":"https:\/\/dev.isi-wash.com\/52-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/52-small_default\/waschkissen.jpg"}},"cart_default":{"url":"https:\/\/dev.isi-wash.com\/52-cart_default\/waschkissen.jpg","width":125,"height":162,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/52-cart_default\/waschkissen.jpg"}},"home_default":{"url":"https:\/\/dev.isi-wash.com\/52-home_default\/waschkissen.jpg","width":236,"height":305,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/52-home_default\/waschkissen.jpg"}},"large_default":{"url":"https:\/\/dev.isi-wash.com\/52-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/52-large_default\/waschkissen.jpg"}},"medium_default":{"url":"https:\/\/dev.isi-wash.com\/52-medium_default\/waschkissen.jpg","width":452,"height":584,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/52-medium_default\/waschkissen.jpg"}},"thickbox_default":{"url":"https:\/\/dev.isi-wash.com\/52-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/52-thickbox_default\/waschkissen.jpg"}}},"small":{"url":"https:\/\/dev.isi-wash.com\/52-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/52-small_default\/waschkissen.jpg"}},"medium":{"url":"https:\/\/dev.isi-wash.com\/52-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/52-large_default\/waschkissen.jpg"}},"large":{"url":"https:\/\/dev.isi-wash.com\/52-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/52-thickbox_default\/waschkissen.jpg"}},"associatedVariants":[]},{"cover":null,"id_image":53,"legend":"Waschkissen - 150gr","position":6,"bySize":{"small_default":{"url":"https:\/\/dev.isi-wash.com\/53-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/53-small_default\/waschkissen.jpg"}},"cart_default":{"url":"https:\/\/dev.isi-wash.com\/53-cart_default\/waschkissen.jpg","width":125,"height":162,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/53-cart_default\/waschkissen.jpg"}},"home_default":{"url":"https:\/\/dev.isi-wash.com\/53-home_default\/waschkissen.jpg","width":236,"height":305,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/53-home_default\/waschkissen.jpg"}},"large_default":{"url":"https:\/\/dev.isi-wash.com\/53-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/53-large_default\/waschkissen.jpg"}},"medium_default":{"url":"https:\/\/dev.isi-wash.com\/53-medium_default\/waschkissen.jpg","width":452,"height":584,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/53-medium_default\/waschkissen.jpg"}},"thickbox_default":{"url":"https:\/\/dev.isi-wash.com\/53-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/53-thickbox_default\/waschkissen.jpg"}}},"small":{"url":"https:\/\/dev.isi-wash.com\/53-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/53-small_default\/waschkissen.jpg"}},"medium":{"url":"https:\/\/dev.isi-wash.com\/53-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/53-large_default\/waschkissen.jpg"}},"large":{"url":"https:\/\/dev.isi-wash.com\/53-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/53-thickbox_default\/waschkissen.jpg"}},"associatedVariants":[]},{"cover":null,"id_image":57,"legend":"Waschkissen - 150gr","position":7,"bySize":{"small_default":{"url":"https:\/\/dev.isi-wash.com\/57-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/57-small_default\/waschkissen.jpg"}},"cart_default":{"url":"https:\/\/dev.isi-wash.com\/57-cart_default\/waschkissen.jpg","width":125,"height":162,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/57-cart_default\/waschkissen.jpg"}},"home_default":{"url":"https:\/\/dev.isi-wash.com\/57-home_default\/waschkissen.jpg","width":236,"height":305,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/57-home_default\/waschkissen.jpg"}},"large_default":{"url":"https:\/\/dev.isi-wash.com\/57-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/57-large_default\/waschkissen.jpg"}},"medium_default":{"url":"https:\/\/dev.isi-wash.com\/57-medium_default\/waschkissen.jpg","width":452,"height":584,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/57-medium_default\/waschkissen.jpg"}},"thickbox_default":{"url":"https:\/\/dev.isi-wash.com\/57-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/57-thickbox_default\/waschkissen.jpg"}}},"small":{"url":"https:\/\/dev.isi-wash.com\/57-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/57-small_default\/waschkissen.jpg"}},"medium":{"url":"https:\/\/dev.isi-wash.com\/57-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/57-large_default\/waschkissen.jpg"}},"large":{"url":"https:\/\/dev.isi-wash.com\/57-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/57-thickbox_default\/waschkissen.jpg"}},"associatedVariants":[]}],"cover":{"cover":1,"id_image":54,"legend":"Waschkissen - 150gr","position":1,"bySize":{"small_default":{"url":"https:\/\/dev.isi-wash.com\/54-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-small_default\/waschkissen.jpg"}},"cart_default":{"url":"https:\/\/dev.isi-wash.com\/54-cart_default\/waschkissen.jpg","width":125,"height":162,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-cart_default\/waschkissen.jpg"}},"home_default":{"url":"https:\/\/dev.isi-wash.com\/54-home_default\/waschkissen.jpg","width":236,"height":305,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-home_default\/waschkissen.jpg"}},"large_default":{"url":"https:\/\/dev.isi-wash.com\/54-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-large_default\/waschkissen.jpg"}},"medium_default":{"url":"https:\/\/dev.isi-wash.com\/54-medium_default\/waschkissen.jpg","width":452,"height":584,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-medium_default\/waschkissen.jpg"}},"thickbox_default":{"url":"https:\/\/dev.isi-wash.com\/54-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-thickbox_default\/waschkissen.jpg"}}},"small":{"url":"https:\/\/dev.isi-wash.com\/54-small_default\/waschkissen.jpg","width":98,"height":127,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-small_default\/waschkissen.jpg"}},"medium":{"url":"https:\/\/dev.isi-wash.com\/54-large_default\/waschkissen.jpg","width":400,"height":400,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-large_default\/waschkissen.jpg"}},"large":{"url":"https:\/\/dev.isi-wash.com\/54-thickbox_default\/waschkissen.jpg","width":1100,"height":1100,"sources":{"jpg":"https:\/\/dev.isi-wash.com\/54-thickbox_default\/waschkissen.jpg"}},"associatedVariants":[]},"has_discount":true,"discount_type":"amount","discount_percentage":"-1.000%","discount_percentage_absolute":"1.000%","discount_amount":"10,00\u00a0\u20ac","regular_price_amount":64.95,"regular_price":"64,95\u00a0\u20ac","discount_to_display":"10,00\u00a0\u20ac","unit_price_full":"","show_availability":false,"availability_message":null,"availability_date":null,"availability":null,"customizations":[]}],"totals":{"total":{"type":"total","label":"Gesamt","amount":109.9,"value":"109,90\u00a0\u20ac"},"total_including_tax":{"type":"total","label":"Gesamt (inkl. MwSt.)","amount":109.9,"value":"109,90\u00a0\u20ac"},"total_excluding_tax":{"type":"total","label":"Gesamtpreis o. MwSt.","amount":92.35,"value":"92,35\u00a0\u20ac"}},"subtotals":{"products":{"type":"products","label":"Zwischensumme","amount":109.9,"value":"109,90\u00a0\u20ac"},"discounts":null,"shipping":{"type":"shipping","label":"Versand","amount":0,"value":"kostenlos"},"tax":{"type":"tax","label":"enthaltene MwSt.","amount":17.55000000000001,"value":"17,55\u00a0\u20ac"}},"products_count":2,"summary_string":"2 Artikel","vouchers":{"allowed":1,"added":[]},"discounts":[],"minimalPurchase":0,"minimalPurchaseRequired":""},"currency":{"id":1,"name":"Euro","iso_code":"EUR","iso_code_num":"978","sign":"\u20ac"},"customer":{"lastname":"a","firstname":"a","email":"isiwash@amazonpaytest.de","birthday":"0000-00-00","newsletter":"0","newsletter_date_add":"0000-00-00 00:00:00","optin":"0","website":null,"company":null,"siret":null,"ape":null,"is_logged":false,"gender":{"type":null,"name":null},"addresses":{"128":{"id":128,"id_shop_list":[],"force_id":false,"id_customer":67,"id_manufacturer":0,"id_supplier":0,"id_warehouse":0,"id_country":1,"id_state":0,"country":"Deutschland","alias":"Amazon Pay","company":"","lastname":"Mustermann","firstname":"Max","address1":"Sch\u00fctzstra\u00dfe 123","address2":"","postcode":"80939","city":"M\u00fcnchen","other":"","phone":"+491731112222","phone_mobile":"","vat_number":"","dni":"","date_add":"2025-03-03 10:36:19","date_upd":"2025-03-03 10:36:28","deleted":0},"129":{"id":129,"id_shop_list":[],"force_id":false,"id_customer":67,"id_manufacturer":0,"id_supplier":0,"id_warehouse":0,"id_country":1,"id_state":0,"country":"Deutschland","alias":"Amazon Pay","company":"","lastname":"Barker","firstname":"Liam","address1":"Meininger Strasse 58","address2":"","postcode":"66538","city":"Neunkirchen","other":"","phone":"","phone_mobile":"","vat_number":"","dni":"","date_add":"2025-03-03 10:36:19","date_upd":"2025-03-03 10:36:28","deleted":0}}},"country":{"id_zone":1,"id_currency":0,"call_prefix":49,"iso_code":"DE","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"1","name":{"1":"Deutschland"},"id":1},"language":{"name":"Deutsch (German)","iso_code":"de","locale":"de-DE","language_code":"de","active":"1","is_rtl":"0","date_format_lite":"d.m.Y","date_format_full":"d.m.Y H:i:s","id":1},"page":{"title":"","canonical":null,"meta":{"title":"Warenkorb","description":"","keywords":"","robots":"index"},"page_name":"cart","body_classes":{"lang-de":true,"lang-rtl":false,"country-DE":true,"currency-EUR":true,"layout-full-width":true,"page-cart":true,"tax-display-enabled":true,"page-customer-account":false},"admin_notifications":[],"password-policy":{"feedbacks":{"0":"Sehr schwach","1":"Schwach","2":"Durchschnitt","3":"Stark","4":"Sehr stark","Straight rows of keys are easy to guess":"Nebeneinander liegende Tastenreihen sind leicht zu erraten","Short keyboard patterns are easy to guess":"Kurze Tastatur-Muster sind leicht zu erraten","Use a longer keyboard pattern with more turns":"Verwenden Sie ein l\u00e4ngeres Tastatur-Muster mit mehr Zuf\u00e4llen","Repeats like \"aaa\" are easy to guess":"Wiederholungen wie \u201eaaa\u201c sind leicht zu erraten","Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\"":"Wiederholungen wie \u201eabcabcabc\u201c sind nur etwas schwerer zu erraten als \u201eabc\u201c","Sequences like abc or 6543 are easy to guess":"Zeichenfolgen wie \u201eabc\u201c oder \u201e6543\u201c sind leicht zu erraten.","Recent years are easy to guess":"Aktuelle Jahre sind leicht zu erraten","Dates are often easy to guess":"Datumsangaben sind oft leicht zu erraten","This is a top-10 common password":"Dies ist ein g\u00e4ngiges Top-10-Passwort","This is a top-100 common password":"Dies ist ein g\u00e4ngiges Top-100-Passwort","This is a very common password":"Dies ist ein sehr g\u00e4ngiges Passwort","This is similar to a commonly used password":"Dies \u00e4hnelt einem g\u00e4ngigen Passwort","A word by itself is easy to guess":"Ein einzelnes Wort ist leicht zu erraten","Names and surnames by themselves are easy to guess":"Vor- und Nachnamen sind leicht zu erraten","Common names and surnames are easy to guess":"G\u00e4ngige Vor- und Nachnamen sind leicht zu erraten","Use a few words, avoid common phrases":"Verwenden Sie mehrere W\u00f6rter, vermeiden Sie g\u00e4ngige Ausdr\u00fccke.","No need for symbols, digits, or uppercase letters":"Symbole, Ziffern oder Gro\u00dfbuchstaben sind nicht notwendig","Avoid repeated words and characters":"Vermeiden Sie Wort- und Zeichenwiederholungen","Avoid sequences":"Vermeiden Sie Sequenzen","Avoid recent years":"Vermeiden Sie aktuelle Jahreszahlen","Avoid years that are associated with you":"Vermeiden Sie Jahreszahlen, die mit Ihnen in Verbindung gebracht werden k\u00f6nnen","Avoid dates and years that are associated with you":"Vermeiden Sie Datums- und Jahresangaben, die mit Ihnen in Verbindung gebracht werden k\u00f6nnen","Capitalization doesn't help very much":"Gro\u00dfschreibung ist nicht sehr hilfreich","All-uppercase is almost as easy to guess as all-lowercase":"Gro\u00dfschreibung ist fast genau so leicht zu erraten wie Kleinschreibung","Reversed words aren't much harder to guess":"Umgekehrte W\u00f6rter sind nicht viel schwerer zu erraten","Predictable substitutions like '@' instead of 'a' don't help very much":"H\u00e4ufig verwendete Ersetzungen wie \u201e@\u201c anstelle von \u201ea\u201c sind nicht sehr zweckdienlich.","Add another word or two. Uncommon words are better.":"Erg\u00e4nzen Sie ein oder zwei W\u00f6rter. Selten gebrauchte W\u00f6rter sind besser."}}},"shop":{"name":"ISI WASH","logo":"https:\/\/dev.isi-wash.com\/img\/logo-1724063471.jpg","stores_icon":"https:\/\/dev.isi-wash.com\/img\/logo_stores.png","favicon":"\/img\/favicon.ico"},"core_js_public_path":"\/themes\/","urls":{"base_url":"https:\/\/dev.isi-wash.com\/","current_url":"https:\/\/dev.isi-wash.com\/warenkorb?action=show","shop_domain_url":"https:\/\/dev.isi-wash.com","img_ps_url":"https:\/\/dev.isi-wash.com\/img\/","img_cat_url":"https:\/\/dev.isi-wash.com\/img\/c\/","img_lang_url":"https:\/\/dev.isi-wash.com\/img\/l\/","img_prod_url":"https:\/\/dev.isi-wash.com\/img\/p\/","img_manu_url":"https:\/\/dev.isi-wash.com\/img\/m\/","img_sup_url":"https:\/\/dev.isi-wash.com\/img\/su\/","img_ship_url":"https:\/\/dev.isi-wash.com\/img\/s\/","img_store_url":"https:\/\/dev.isi-wash.com\/img\/st\/","img_col_url":"https:\/\/dev.isi-wash.com\/img\/co\/","img_url":"https:\/\/dev.isi-wash.com\/themes\/warehouse\/assets\/img\/","css_url":"https:\/\/dev.isi-wash.com\/themes\/warehouse\/assets\/css\/","js_url":"https:\/\/dev.isi-wash.com\/themes\/warehouse\/assets\/js\/","pic_url":"https:\/\/dev.isi-wash.com\/upload\/","theme_assets":"https:\/\/dev.isi-wash.com\/themes\/warehouse\/assets\/","theme_dir":"https:\/\/dev.isi-wash.com\/themes\/warehouse\/","pages":{"address":"https:\/\/dev.isi-wash.com\/adresse","addresses":"https:\/\/dev.isi-wash.com\/adressen","authentication":"https:\/\/dev.isi-wash.com\/anmeldung","manufacturer":"https:\/\/dev.isi-wash.com\/Marken","cart":"https:\/\/dev.isi-wash.com\/warenkorb","category":"https:\/\/dev.isi-wash.com\/index.php?controller=category","cms":"https:\/\/dev.isi-wash.com\/index.php?controller=cms","contact":"https:\/\/dev.isi-wash.com\/kontakt","discount":"https:\/\/dev.isi-wash.com\/Rabatt","guest_tracking":"https:\/\/dev.isi-wash.com\/auftragsverfolgung-gast","history":"https:\/\/dev.isi-wash.com\/bestellungsverlauf","identity":"https:\/\/dev.isi-wash.com\/profil","index":"https:\/\/dev.isi-wash.com\/","my_account":"https:\/\/dev.isi-wash.com\/mein-Konto","order_confirmation":"https:\/\/dev.isi-wash.com\/bestellbestaetigung","order_detail":"https:\/\/dev.isi-wash.com\/index.php?controller=order-detail","order_follow":"https:\/\/dev.isi-wash.com\/bestellverfolgung","order":"https:\/\/dev.isi-wash.com\/Bestellung","order_return":"https:\/\/dev.isi-wash.com\/index.php?controller=order-return","order_slip":"https:\/\/dev.isi-wash.com\/bestellschein","pagenotfound":"https:\/\/dev.isi-wash.com\/seite-nicht-gefunden","password":"https:\/\/dev.isi-wash.com\/passwort-zuruecksetzen","pdf_invoice":"https:\/\/dev.isi-wash.com\/index.php?controller=pdf-invoice","pdf_order_return":"https:\/\/dev.isi-wash.com\/index.php?controller=pdf-order-return","pdf_order_slip":"https:\/\/dev.isi-wash.com\/index.php?controller=pdf-order-slip","prices_drop":"https:\/\/dev.isi-wash.com\/angebote","product":"https:\/\/dev.isi-wash.com\/index.php?controller=product","registration":"https:\/\/dev.isi-wash.com\/Registrierung","search":"https:\/\/dev.isi-wash.com\/suche","sitemap":"https:\/\/dev.isi-wash.com\/Sitemap","stores":"https:\/\/dev.isi-wash.com\/index.php?controller=stores","supplier":"https:\/\/dev.isi-wash.com\/Lieferanten","new_products":"https:\/\/dev.isi-wash.com\/neue-artikel","brands":"https:\/\/dev.isi-wash.com\/Marken","register":"https:\/\/dev.isi-wash.com\/Registrierung","order_login":"https:\/\/dev.isi-wash.com\/Bestellung?login=1"},"alternative_langs":[],"actions":{"logout":"https:\/\/dev.isi-wash.com\/?mylogout="},"no_picture_image":{"bySize":{"small_default":{"url":"https:\/\/dev.isi-wash.com\/img\/p\/de-default-small_default.jpg","width":98,"height":127},"cart_default":{"url":"https:\/\/dev.isi-wash.com\/img\/p\/de-default-cart_default.jpg","width":125,"height":162},"home_default":{"url":"https:\/\/dev.isi-wash.com\/img\/p\/de-default-home_default.jpg","width":236,"height":305},"large_default":{"url":"https:\/\/dev.isi-wash.com\/img\/p\/de-default-large_default.jpg","width":400,"height":400},"medium_default":{"url":"https:\/\/dev.isi-wash.com\/img\/p\/de-default-medium_default.jpg","width":452,"height":584},"thickbox_default":{"url":"https:\/\/dev.isi-wash.com\/img\/p\/de-default-thickbox_default.jpg","width":1100,"height":1100}},"small":{"url":"https:\/\/dev.isi-wash.com\/img\/p\/de-default-small_default.jpg","width":98,"height":127},"medium":{"url":"https:\/\/dev.isi-wash.com\/img\/p\/de-default-large_default.jpg","width":400,"height":400},"large":{"url":"https:\/\/dev.isi-wash.com\/img\/p\/de-default-thickbox_default.jpg","width":1100,"height":1100},"legend":""}},"configuration":{"display_taxes_label":true,"display_prices_tax_incl":true,"is_catalog":false,"show_prices":true,"opt_in":{"partner":false},"quantity_discount":{"type":"discount","label":"Rabatt auf St\u00fcckzahl"},"voucher_enabled":1,"return_enabled":0},"field_required":[],"breadcrumb":{"links":[{"title":"Startseite","url":"https:\/\/dev.isi-wash.com\/"}],"count":1},"link":{"protocol_link":"https:\/\/","protocol_content":"https:\/\/"},"time":1740998404,"static_token":"ba5f799e77fe377f06f7a048087831fc","token":"0339dd778dd1971c8961d370bf4c1e54","debug":false};
+        var psemailsubscription_subscription = "https:\/\/dev.isi-wash.com\/module\/ps_emailsubscription\/subscription";
+        var stripe_address = {"id":129,"id_shop_list":[],"force_id":false,"id_customer":67,"id_manufacturer":0,"id_supplier":0,"id_warehouse":0,"id_country":1,"id_state":0,"country":"Deutschland","alias":"Amazon Pay","company":"","lastname":"Barker","firstname":"Liam","address1":"Meininger Strasse 58","address2":"","postcode":"66538","city":"Neunkirchen","other":"","phone":"","phone_mobile":"","vat_number":"","dni":"","date_add":"2025-03-03 10:36:19","date_upd":"2025-03-03 10:36:28","deleted":0};
+        var stripe_address_country_code = "DE";
+        var stripe_amount = 10990;
+        var stripe_calculate_shipping = "https:\/\/dev.isi-wash.com\/module\/stripe_official\/calculateShipping";
+        var stripe_create_elements = "https:\/\/dev.isi-wash.com\/module\/stripe_official\/createElements";
+        var stripe_create_express_checkout = "https:\/\/dev.isi-wash.com\/module\/stripe_official\/createExpressCheckout";
+        var stripe_create_intent = "https:\/\/dev.isi-wash.com\/module\/stripe_official\/createIntent";
+        var stripe_css = "{\"base\": {\"iconColor\": \"#666ee8\",\"color\": \"#31325f\",\"fontWeight\": 400,\"fontFamily\": \"-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif\",\"fontSmoothing\": \"antialiased\",\"fontSize\": \"15px\",\"::placeholder\": { \"color\": \"#aab7c4\" },\":-webkit-autofill\": { \"color\": \"#666ee8\" }}}";
+        var stripe_currency = "eur";
+        var stripe_email = "isiwash@amazonpaytest.de";
+        var stripe_express_amount = 10990;
+        var stripe_express_carriers = [{"id_carrier":14,"id_reference":2,"name":"Standardversand","url":"","active":1,"deleted":0,"shipping_handling":0,"range_behavior":0,"is_module":0,"is_free":0,"shipping_external":0,"need_range":0,"external_module_name":"","shipping_method":2,"position":1,"max_width":0,"max_height":0,"max_depth":0,"max_weight":"0.300000","grade":0,"delay":"1-3 Tage"}];
+        var stripe_express_cart_id = 235;
+        var stripe_express_currency_iso = "eur";
+        var stripe_express_customer_model = {"email":"isiwash@amazonpaytest.de","name":"a a","id":67,"address":{"city":"M\u00fcnchen","countryIso":"DE","street":"Sch\u00fctzstra\u00dfe 123","zipCode":"80939","state":null}};
+        var stripe_express_phone = "+491731112222";
+        var stripe_express_return_url = "https:\/\/dev.isi-wash.com\/module\/stripe_official\/orderConfirmationReturn?cartId=235";
+        var stripe_fullname = "a a";
+        var stripe_layout = "accordion";
+        var stripe_locale = "de";
+        var stripe_locations = ["cart"];
+        var stripe_merchant_country_code = "DE";
+        var stripe_message = {"processing":"Processing\u2026","accept_cgv":"Please accept the CGV","redirecting":"Redirecting\u2026"};
+        var stripe_module_dir = "\/modules\/stripe_official";
+        var stripe_order_confirm = "https:\/\/dev.isi-wash.com\/module\/stripe_official\/orderConfirmationReturn";
+        var stripe_payment_elements_enabled = "0";
+        var stripe_pk = "pk_test_51OcoVZKQRyByTMX1GR5LvJyjdZG8arN32DvHrCLmIFzOwUPbAMbTaILZcKuHJEssMdcBLRs56TlRilVaxwy6C07a003t9Mgure";
+        var stripe_position = "top";
+        var stripe_postcode_disabled = "0";
+        var stripe_ps_version = "1.7";
+        var stripe_theme = "stripe";
+        var use_new_ps_translation = true;
+      </script>
+
+
+
+  
+
+<script src="https://dev.isi-wash.com/modules/klarnapayment/views/js/front/klarna_express_checkout/klarna_express_checkout.js"></script>
+
+<script
+        async
+        src='https://x.klarnacdn.net/kp/lib/v1/api.js'
+        data-id='d34cefb5-22b9-4ff0-9fb3-5d9f00c1612c'
+        data-environment='playground'
+></script>
+
+
+
+    
+     <!-- Brevo Conversations {literal} -->
+<script>
+    (function(d, w, c) {
+        w.BrevoConversationsID = '66c3209f11ac164ab75dfeec';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'BrevoConversations');
+</script>
+<!-- /Brevo Conversations {/literal} -->
+ </head>
+
+<body id="cart" class="lang-de country-de currency-eur layout-full-width page-cart tax-display-enabled body-desktop-header-style-w-2">
+
+
+    
+
+
+
+
+    <div class="mwdpscommons feature feature--env-badge">
+            <div class="env-badge__environment-badge">
+            Achtung <strong>NICHT</strong> produktiv: <br>
+            Instanz: <span>dev<span>
+        </div>
+    </div>
+
+
+<main id="main-page-content"  >
+    
+            
+
+    <header id="header" class="desktop-header-style-w-2">
+        
+            
+  <div class="header-banner">
+    
+          <div id="iqithtmlandbanners-block-4"  class="col col-md block block-toggle block-iqithtmlandbanners-html js-block-toggle">
+        <h5 class="block-title"><span>Versandkostenfrei</span></h5>
+        <div class="block-content rte-content">
+            <h2 style="text-align: center; font-size: 1rem; font-weight: 500; color: #005a78; font-family: 'Asap';"><a href="https://dev.isi-wash.com/Lieferung" style="color: #005a78; text-decoration: none; letter-spacing: 0.5px;">IMMER VERSANDKOSTENFREI*</a></h2>
+        </div>
+    </div>
+
+
+  
+
+  </div>
+
+
+
+
+            <nav class="header-nav">
+        <div class="container">
+    
+        <div class="row justify-content-between">
+            <div class="col col-auto col-md left-nav">
+                 <div class="d-inline-block"> 
+
+<ul class="social-links _topbar"     itemid="#store-organization">
+        <li class="instagram"><a   href="https://www.instagram.com/isi_wash/" target="_blank" rel="noreferrer noopener"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></a></li>            </ul>
+
+ </div>                 
+            </div>
+            <div class="col col-auto center-nav text-center">
+                
+             </div>
+            <div class="col col-auto col-md right-nav text-right">
+                
+             </div>
+        </div>
+
+                        </div>
+            </nav>
+        
+
+
+
+<div id="desktop-header" class="desktop-header-style-2">
+    
+            
+<div class="header-top">
+    <div id="desktop-header-container" class="container">
+        <div class="row align-items-center">
+                            <div class="col col-auto col-header-left">
+                    <div id="desktop_logo">
+                        
+  <a href="https://dev.isi-wash.com/">
+    <img class="logo img-fluid"
+         src="https://dev.isi-wash.com/img/logo-1724063471.jpg"
+          srcset="/img/cms/Logo/ISI-WASH_Logo-Schriftzug_Web_RGB-Farbe.png 2x"         alt="ISI WASH"
+         width="106"
+         height="73"
+    >
+  </a>
+
+                    </div>
+                    
+                </div>
+                <div class="col col-header-center">
+                                        <!-- Block search module TOP -->
+
+<!-- Block search module TOP -->
+<div id="search_widget" class="search-widget" data-search-controller-url="https://dev.isi-wash.com/module/iqitsearch/searchiqit">
+    <form method="get" action="https://dev.isi-wash.com/module/iqitsearch/searchiqit">
+        <div class="input-group">
+            <input type="text" name="s" value="" data-all-text="Show all results"
+                   data-blog-text="Blog post"
+                   data-product-text="Product"
+                   data-brands-text="Marke"
+                   autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                   placeholder="Suche..." class="form-control form-search-control" />
+            <button type="submit" class="search-btn">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </form>
+</div>
+<!-- /Block search module TOP -->
+
+<!-- /Block search module TOP -->
+
+
+                
+                    
+                </div>
+                        <div class="col col-auto col-header-right">
+                <div class="row no-gutters justify-content-end">
+
+                    
+                                            <div id="header-user-btn" class="col col-auto header-btn-w header-user-btn-w">
+            <a href="https://dev.isi-wash.com/anmeldung?back=https%3A%2F%2Fdev.isi-wash.com%2Fwarenkorb%3Faction%3Dshow"
+           title="Anmelden zu Deinem Kundenbereich"
+           rel="nofollow" class="header-btn header-user-btn">
+            <i class="fa fa-user fa-fw icon" aria-hidden="true"></i>
+            <span class="title">Anmelden</span>
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+                                        
+
+                    
+
+                                            
+                                                    <div id="ps-shoppingcart-wrapper" class="col col-auto">
+    <div id="ps-shoppingcart"
+         class="header-btn-w header-cart-btn-w ps-shoppingcart side-cart">
+        <div id="blockcart" class="blockcart cart-preview" data-refresh-url="//dev.isi-wash.com/module/ps_shoppingcart/ajax">
+        <a id="cart-toogle" class="cart-toogle header-btn header-cart-btn" data-toggle="dropdown" data-display="static" data-href="https://dev.isi-wash.com/warenkorb?action=show">
+        <i class="fa fa-shopping-bag fa-fw icon" aria-hidden="true">
+            <span class="cart-products-count-btn ">2</span>
+        </i>
+        <span class="info-wrapper">
+                        <span class="cart-toggle-details">
+                <span class="text-faded cart-separator"> / </span>
+                                    <span class="cart-products-count">(2)</span>
+                                                                        <span class="value">109,90 €</span>
+                                                                                                                                                                                                            </span>
+        </span>
+    </a>
+    <div id="_desktop_blockcart-content" class="dropdown-menu-custom dropdown-menu">
+    <div id="blockcart-content" class="blockcart-content" >
+        <div class="cart-title">
+            <span class="modal-title">Warenkorb</span>
+            <button type="button" id="js-cart-close" class="close">
+                <span>×</span>
+            </button>
+                        <span class="mwd-voucher-to-cart-info" style="display: none;">Voucher was successfully placed in the shopping bag and saved for your payment.</span>
+            <hr>
+        </div>
+                    <ul class="cart-products">
+                                    <li><div class="row no-gutters align-items-center">
+    <div class="col-3">
+        <span class="product-image media-middle">
+
+
+        <a href="https://dev.isi-wash.com/waschkissen">
+                    <picture>
+                                    <img src="https://dev.isi-wash.com/54-cart_default/waschkissen.jpg" alt="Waschkissen - 150gr"  class="img-fluid" loading="lazy">
+            </picture>
+                </a>
+        
+</span>
+    </div>
+    <div class="col col-info">
+        <div class="pb-1">
+            <a href="https://dev.isi-wash.com/waschkissen">Waschkissen - 150gr</a>
+        </div>
+
+        
+            <div id="updated-add-cart-btn-20-0" class="d-none">
+                
+                <div class="product-add-cart js-product-add-cart-20-0" >
+
+    
+            <form action="https://dev.isi-wash.com/warenkorb" method="post">
+
+            <input type="hidden" name="id_product" value="20">
+
+           
+                <input type="hidden" name="token" value="ba5f799e77fe377f06f7a048087831fc">
+                <input type="hidden" name="id_product_attribute" value="0">
+            <div class="input-group-add-cart">
+                <input
+                        type="number"
+                        name="qty"
+                        value="1"
+                        class="form-control input-qty"
+                        min="1"
+                                        >
+
+                <button
+                        class="btn btn-product-list add-to-cart"
+                        data-button-action="add-to-cart"
+                        type="submit"
+                                        ><i class="fa fa-shopping-bag fa-fw bag-icon"
+                    aria-hidden="true"></i> <i class="fa fa-circle-o-notch fa-spin fa-fw spinner-icon" aria-hidden="true"></i> IN MEINEN WARENKORB
+                </button>
+            </div>
+        </form>
+    </div>            </div>
+        
+
+
+        
+        <div class="row align-items-center mt-2 no-gutters">
+            <div class="col mr-2">
+                                    <input
+                            class="block-cart-product-quantity form-control js-cart-line-product-quantity"
+                            data-down-url="https://dev.isi-wash.com/warenkorb?update=1&amp;id_product=20&amp;id_product_attribute=0&amp;token=ba5f799e77fe377f06f7a048087831fc&amp;op=down"
+                            data-up-url="https://dev.isi-wash.com/warenkorb?update=1&amp;id_product=20&amp;id_product_attribute=0&amp;token=ba5f799e77fe377f06f7a048087831fc&amp;op=up"
+                            data-update-url="https://dev.isi-wash.com/warenkorb?update=1&amp;id_product=20&amp;id_product_attribute=0&amp;token=ba5f799e77fe377f06f7a048087831fc"
+                            data-product-id="20"
+                            data-id-product-attribute="0"
+                            data-id-product="20"
+                            data-link-place="cart-preview"
+                            type="number"
+                            value="2"
+                            name="product-quantity-spin"
+                            min="1"
+                    />
+                            </div>
+            <div class="col">
+                <span class="text-muted">x</span> <span>54,95 €</span>
+            </div>
+
+            <div class="col col-auto">
+                <a class="remove-from-cart"
+                   rel="nofollow"
+                   href="https://dev.isi-wash.com/warenkorb?delete=1&amp;id_product=20&amp;id_product_attribute=0&amp;token=ba5f799e77fe377f06f7a048087831fc"
+                   data-link-action="delete-from-cart"
+                   data-link-place="cart-preview"
+                   data-id-product="20"
+                   data-id-product-attribute="0"
+                   data-id-customization=""
+                   data-new-add-btn='<div class="product-add-cart js-product-add-cart-20-0" >
+
+    
+            <form action="https://dev.isi-wash.com/warenkorb" method="post">
+
+            <input type="hidden" name="id_product" value="20">
+
+           
+                <input type="hidden" name="token" value="ba5f799e77fe377f06f7a048087831fc">
+                <input type="hidden" name="id_product_attribute" value="0">
+            <div class="input-group-add-cart">
+                <input
+                        type="number"
+                        name="qty"
+                        value="1"
+                        class="form-control input-qty"
+                        min="1"
+                                        >
+
+                <button
+                        class="btn btn-product-list add-to-cart"
+                        data-button-action="add-to-cart"
+                        type="submit"
+                                        ><i class="fa fa-shopping-bag fa-fw bag-icon"
+                    aria-hidden="true"></i> <i class="fa fa-circle-o-notch fa-spin fa-fw spinner-icon" aria-hidden="true"></i> IN MEINEN WARENKORB
+                </button>
+            </div>
+        </form>
+    </div>'
+                   title="vom Warenkorb entfernen"
+                >
+                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+</li>
+                            </ul>
+
+        <div class="cart-subtotals">
+                                                <div class="cart-summary-line" id="cart-subtotal-products">
+          <span class="label js-subtotal">
+                            2 Artikel
+                      </span>
+                        <span class="value">
+            109,90 €
+          </span>
+                                            </div>
+                                                                                            <div class="cart-summary-line" id="cart-subtotal-shipping">
+          <span class="label">
+                            Versand
+                      </span>
+                        <span class="value">
+            kostenlos
+          </span>
+                                                    <div><small class="value"></small></div>
+                                            </div>
+                                                                </div>
+
+            <div class="cart-totals">
+
+                                                            <div class="clearfix">
+                            <span class="label">Gesamt&nbsp;(inkl. MwSt.)</span>
+                            <span class="value float-right">109,90 €</span>
+                        </div>
+                                    
+            </div>
+            
+            
+            <div class="cart-buttons text-center">
+                                                                            <a rel="nofollow" class="btn btn-primary btn-block btn-lg mb-2" href="//dev.isi-wash.com/warenkorb?action=show">Zur Kasse</a>
+                                        <button type="button" id="js-cart-close" class="btn btn-secondary btn-block">Weiter einkaufen</button>
+
+                                            </div>
+            </div>
+</div></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        let cartToogle = document.getElementById('cart-toogle');
+        if (cartToogle) {
+            cartToogle.addEventListener('click', event => {
+                event.preventDefault();
+                event.stopPropagation();
+                let href = cartToogle.getAttribute('data-href');
+                if (href) {
+                    window.location.href = href;
+                }
+            });
+        }
+    });
+</script>
+
+
+
+
+    </div>
+</div>
+                                                
+                                    </div>
+                
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container iqit-megamenu-container">	<div id="iqitmegamenu-wrapper" class="iqitmegamenu-wrapper iqitmegamenu-all">
+		<div class="container container-iqitmegamenu">
+		<div id="iqitmegamenu-horizontal" class="iqitmegamenu  clearfix" role="navigation">
+
+								
+				<nav id="cbp-hrmenu" class="cbp-hrmenu cbp-horizontal cbp-hrsub-narrow">
+					<ul>
+												<li id="cbp-hrmenu-tab-9" class="cbp-hrmenu-tab cbp-hrmenu-tab-9 ">
+	<a href="https://dev.isi-wash.com/so-funktioniert-isi" class="nav-link" >
+
+								<span class="cbp-tab-title">
+								So funktioniert ISI</span>
+														</a>
+													</li>
+												<li id="cbp-hrmenu-tab-2" class="cbp-hrmenu-tab cbp-hrmenu-tab-2 ">
+	<a href="https://dev.isi-wash.com/waschkissen" class="nav-link" >
+
+								<span class="cbp-tab-title">
+								Waschkissen</span>
+														</a>
+													</li>
+												<li id="cbp-hrmenu-tab-3" class="cbp-hrmenu-tab cbp-hrmenu-tab-3 ">
+	<a href="https://dev.isi-wash.com/fleckenseife" class="nav-link" >
+
+								<span class="cbp-tab-title">
+								Fleckenentferner</span>
+														</a>
+													</li>
+												<li id="cbp-hrmenu-tab-10" class="cbp-hrmenu-tab cbp-hrmenu-tab-10 ">
+	<a href="/waesche-blog" class="nav-link" >
+
+								<span class="cbp-tab-title">
+								Wäsche-Blog</span>
+														</a>
+													</li>
+												<li id="cbp-hrmenu-tab-1" class="cbp-hrmenu-tab cbp-hrmenu-tab-1 ">
+	<a href="https://dev.isi-wash.com/uber-uns" class="nav-link" >
+
+								<span class="cbp-tab-title">
+								Über uns</span>
+														</a>
+													</li>
+												<li id="cbp-hrmenu-tab-11" class="cbp-hrmenu-tab cbp-hrmenu-tab-11 ">
+	<a href="https://dev.isi-wash.com/faqs" class="nav-link" >
+
+								<span class="cbp-tab-title">
+								FAQ</span>
+														</a>
+													</li>
+											</ul>
+				</nav>
+		</div>
+		</div>
+		<div id="sticky-cart-wrapper"></div>
+	</div>
+
+<div id="_desktop_iqitmegamenu-mobile">
+	<ul id="iqitmegamenu-mobile">
+		
+
+
+	
+	<li><a href="https://dev.isi-wash.com/so-funktioniert-isi">So funktioniert ISI</a></li><li><a href="/waschkissen">Waschkissen</a></li><li><a href="/fleckenseife">Fleckenentferner</a></li><li><a href="/waesche-blog">Wäsche-Blog</a></li><li><a href="https://dev.isi-wash.com/uber-uns">Über uns</a></li><li><a href="https://dev.isi-wash.com/faqs">FAQs</a></li><li><a href="https://dev.isi-wash.com/schweizer-kunden-meineinkaufch">Für unsere Schweizer Kunden</a></li>
+	</ul>
+</div>
+</div>
+
+
+    </div>
+
+
+
+    <div id="mobile-header" class="mobile-header-style-1">
+                    <div id="mobile-header-sticky">
+    <div class="container">
+        <div class="mobile-main-bar">
+            <div class="row no-gutters align-items-center row-mobile-header">
+                <div class="col col-auto col-mobile-btn col-mobile-btn-menu col-mobile-menu-push">
+                    <a class="m-nav-btn js-m-nav-btn-menu" data-toggle="dropdown" data-display="static"><i class="fa fa-bars" aria-hidden="true"></i>
+                        <span>Menu</span></a>
+                    <div id="mobile_menu_click_overlay"></div>
+                                        <div class="mwd-mobile-menu__hook-mobile-menu-before">
+                        
+
+
+            <div class="elementor-displayMwdMobileMenuBefore">
+            		<style class="elementor-frontend-stylesheet">.elementor-element.elementor-element-7jee4ea > .elementor-element-populated{padding:40px 0px 0px 30px;}.elementor-element.elementor-element-u4zvuy5{text-align:left;}.elementor-element.elementor-element-u4zvuy5 .elementor-image img{max-width:40%;opacity:1;}.elementor-element.elementor-element-u4zvuy5 .elementor-widget-container{margin:70px 0px 0px 0px;}@media(max-width: 991px){.elementor-element.elementor-element-u4zvuy5{text-align:left;}}@media(max-width: 767px){.elementor-element.elementor-element-u4zvuy5{text-align:left;}}</style>
+				<div class="elementor">
+											                        <div class="elementor-section elementor-element elementor-element-kk7r72l elementor-top-section elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-phone" data-element_type="section">
+                            
+                           
+
+                            <div class="elementor-container  elementor-column-gap-default      "
+                                                                >
+                                <div class="elementor-row  ">
+                                                                
+                            		<div class="elementor-column elementor-element elementor-element-7jee4ea elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+				<div class="elementor-widget-wrap">
+		        <div class="elementor-widget elementor-element elementor-element-u4zvuy5 elementor-widget-image elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-phone" data-element_type="image">
+                <div class="elementor-widget-container">
+            <div class="elementor-image"><img loading="lazy"  src="https://dev.isi-wash.com/img/cms/Logo/logo_isi_wash_160x120.png" width="160" height="120" alt="" /></div>        </div>
+                </div>
+        				</div>
+			</div>
+		</div>
+		                             
+                                                            </div>
+                                
+                                                            </div>
+                        </div>
+                							</div>
+		
+        </div>
+    
+
+
+
+                    </div>
+                                        <button class="mwd-mobile-menu__close"></button>
+                    <div id="_mobile_iqitmegamenu-mobile" class="dropdown-menu-custom dropdown-menu"></div>
+                </div>
+                <div id="mobile-btn-search" class="col col-auto col-mobile-btn col-mobile-btn-search">
+                    <a class="m-nav-btn" data-toggle="dropdown" data-display="static"><i class="fa fa-search" aria-hidden="true"></i>
+                        <span>Suche</span></a>
+                    <div id="search-widget-mobile" class="dropdown-content dropdown-menu dropdown-mobile search-widget">
+                        
+                                                    
+<!-- Block search module TOP -->
+<form method="get" action="https://dev.isi-wash.com/module/iqitsearch/searchiqit">
+    <div class="input-group">
+        <input type="text" name="s" value=""
+               placeholder="Suche"
+               data-all-text="Show all results"
+               data-blog-text="Blog post"
+               data-product-text="Product"
+               data-brands-text="Marke"
+               autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+               class="form-control form-search-control">
+        <button type="submit" class="search-btn">
+            <i class="fa fa-search"></i>
+        </button>
+    </div>
+</form>
+<!-- /Block search module TOP -->
+
+                                                
+                    </div>
+                </div>
+                <div class="col col-mobile-logo text-center">
+                    
+  <a href="https://dev.isi-wash.com/">
+    <img class="logo img-fluid"
+         src="https://dev.isi-wash.com/img/logo-1724063471.jpg"
+          srcset="/img/cms/Logo/ISI-WASH_Logo-Schriftzug_Web_RGB-Farbe.png 2x"         alt="ISI WASH"
+         width="106"
+         height="73"
+    >
+  </a>
+
+                </div>
+                <div class="col col-auto col-mobile-btn col-mobile-btn-account">
+                    <a href="https://dev.isi-wash.com/mein-Konto" class="m-nav-btn"><i class="fa fa-user" aria-hidden="true"></i>
+                        <span>
+                            
+                                                            Anmelden
+                                                        
+                        </span></a>
+                </div>
+                
+                                <div class="col col-auto col-mobile-btn col-mobile-btn-cart ps-shoppingcart side-cart">
+                    <div id="mobile-cart-wrapper">
+                                                <a id="mobile-cart-toogle" class="m-nav-btn" data-toggle="dropdown" data-display="static" data-href="https://dev.isi-wash.com/warenkorb?action=show">
+                            <i class="fa fa-shopping-bag mobile-bag-icon" aria-hidden="true">
+                                <span id="mobile-cart-products-count" class="cart-products-count cart-products-count-btn">
+                                    
+                                                                            2
+                                                                        
+                                </span>
+                            </i>
+                                                    </a>
+                    <div id="_mobile_blockcart-content" class="dropdown-menu-custom dropdown-menu"></div>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        let cartToogleMobile = document.getElementById('mobile-cart-toogle');
+        if (cartToogleMobile) {
+            cartToogleMobile.addEventListener('click', event => {
+                event.preventDefault();
+                event.stopPropagation();
+                let href = cartToogleMobile.getAttribute('data-href');
+                if (href) {
+                    window.location.href = href;
+                }
+            });
+        }
+        // mobile adaptions
+        if(window.innerWidth < 767) {
+            // close button
+            let mobileMenuClose = document.querySelector('.mwd-mobile-menu__close');
+            if (mobileMenuClose) {
+                // move to right place in DOM
+                document.querySelector('#iqitmegamenu-mobile').parentNode.prepend(mobileMenuClose);
+                mobileMenuClose.addEventListener('click', event => {
+                    // now remove sho classes
+                    document.querySelector('#mobile-header .col-mobile-menu-push').classList.remove('show');
+                    document.querySelector('#mobile-header .dropdown-menu-custom').classList.remove('show');
+                    // and set aria expanded to false
+                    document.querySelector('#mobile-header .js-m-nav-btn-menu').setAttribute('aria-expanded', 'false');
+                });
+            }
+            // new content hook für elementor stuff
+            let mobileMenuBeforeHookContainer = document.querySelector('.mwd-mobile-menu__hook-mobile-menu-before');
+            if (mobileMenuBeforeHookContainer) {
+                // move to right place in DOM
+                document.querySelector('#iqitmegamenu-mobile').parentNode.prepend(mobileMenuBeforeHookContainer);
+            }
+        }
+    });
+</script>            </div>
+
+
+
+        
+    </header>
+    
+
+    <section id="wrapper">
+        
+        
+
+        <div id="inner-wrapper" class="container">
+            
+            
+                
+   <aside id="notifications">
+        
+        
+        
+      
+  </aside>
+              
+
+            
+
+                
+    <div id="content-wrapper" class="js-content-wrapper">
+        
+        
+
+  <section id="main">
+
+        <div class="mwd-checkout-header">
+    <div class="mwd-checkout-header__steps">
+                                <div class="mwd-checkout-header__step mwd-checkout-header__step--cart mwd-checkout-header__step--active">
+            <div class="mwd-checkout-header__step-number">1.</div>
+            <div class="mwd-checkout-header__step-title">Warenkorb</div>
+        </div>
+                                <div class="mwd-checkout-header__step mwd-checkout-header__step--checkout">
+            <div class="mwd-checkout-header__step-number">2.</div>
+            <div class="mwd-checkout-header__step-title">Checkout</div>
+        </div>
+                                <div class="mwd-checkout-header__step mwd-checkout-header__step--payment">
+            <div class="mwd-checkout-header__step-number">3.</div>
+            <div class="mwd-checkout-header__step-title">Bezahlen</div>
+        </div>
+    </div>
+</div>
+    
+    <div class="cart-grid row">
+
+      <!-- Left Block: cart product informations & shpping -->
+      <div class="cart-grid-body col-12 col-lg-8">
+
+        <!-- cart products detailed -->
+        <div class="cart-container">
+          
+            
+    <div class="cart-overview js-cart" data-refresh-url="//dev.isi-wash.com/warenkorb?ajax=1&action=refresh">
+                    <ul class="cart-items">
+                                <li class="cart-item-header hidden-sm-down">
+                    <div class="row small-gutters">
+                        <div class="col-6 product" style="text-align: left;">Produkt</div>
+                        <div class="col-6">
+                            <div class="row small-gutters">
+                                <div class="col-12 col-sm-4 col-md-4">Preis</div>
+                                <div class="col-12 col-sm-4 col-md-4">Menge</div>
+                                <div class="col-12 col-sm-4 col-md-4">Gesamt</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                                    <li class="cart-item">
+                        
+                            <div class="product-line-grid row align-items-center small-gutters">
+
+
+    <!--  product left body: description -->
+    <div class="product-line-grid-body col-12 col-sm-6 col-md-6">
+        <div class="row align-items-center small-gutters">
+            <div class="col product-image">
+
+                <a href="https://dev.isi-wash.com/waschkissen" data-id_customization="0">
+                                            <picture>
+                                                                        <img src="https://dev.isi-wash.com/54-cart_default/waschkissen.jpg" alt="Waschkissen - 150gr"  class="img-fluid" loading="lazy">
+                        </picture>
+                    
+                </a>
+
+            </div>
+            <div class="col col-9">
+                <div class="product-line-info">
+                    <a class="label" href="https://dev.isi-wash.com/waschkissen"
+                       data-id_customization="0">Waschkissen - 150gr</a>
+                </div>
+
+                
+                            </div>
+        </div>
+    </div>
+
+    <!--  product left body: description -->
+    <div class="col-12 col-sm-6 col-md-6 product-line-grid-right product-line-actions">
+        <div class="row align-items-center small-gutters justify-content-end">
+            <!--  product unit-->
+            <div class="col col-auto col-md unit-price">
+                                    <span class="product-discount">
+                        <span class="regular-price">64,95 €</span>
+                                                        <span class="discount discount-amount mr-1">
+                                 -10,00 €
+                            </span>
+                        	                    </span>
+                                <span class="value">54,95 €</span>
+                                
+            </div>
+
+            <div class="col col-auto col-md qty">
+                                    <input
+                            class="js-cart-line-product-quantity"
+                            data-down-url="https://dev.isi-wash.com/warenkorb?update=1&amp;id_product=20&amp;id_product_attribute=0&amp;token=ba5f799e77fe377f06f7a048087831fc&amp;op=down"
+                            data-up-url="https://dev.isi-wash.com/warenkorb?update=1&amp;id_product=20&amp;id_product_attribute=0&amp;token=ba5f799e77fe377f06f7a048087831fc&amp;op=up"
+                            data-update-url="https://dev.isi-wash.com/warenkorb?update=1&amp;id_product=20&amp;id_product_attribute=0&amp;token=ba5f799e77fe377f06f7a048087831fc"
+                            data-product-id="20"
+                            type="number"
+                            value="2"
+                            name="product-quantity-spin"
+                            step="1"
+                            inputmode="numeric"
+                            pattern="[0-9]*"
+                            aria-label="Waschkissen - 150gr Produktmengenfeld"
+                    />
+                            </div>
+            <div class="col col-auto col-md price">
+            <span class="product-price">
+              <strong>
+                                    109,90 €
+                              </strong>
+            </span>
+            </div>
+
+            <div class="col col-auto">
+                <div class="cart-line-product-actions">
+                    <a
+                            class="remove-from-cart"
+                            rel="nofollow"
+                            href="https://dev.isi-wash.com/warenkorb?delete=1&amp;id_product=20&amp;id_product_attribute=0&amp;token=ba5f799e77fe377f06f7a048087831fc"
+                            data-link-action="delete-from-cart"
+                            data-id-product="20"
+                            data-id-product-attribute="0"
+                            data-id-customization=""
+                    >
+                                                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                            </a>
+
+                    
+                        
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+                        
+                    </li>
+                                                </ul>
+            </div>
+
+          
+        </div>
+
+        
+          <div id="stripe-express-checkout-element">
+  <!-- Express Checkout Element will be inserted here -->
+</div>
+<div id="stripe-error-message">
+  <!-- Display error message to your customers here -->
+</div>
+
+        
+
+        
+        <!-- shipping informations -->
+        
+          
+        
+      </div>
+
+      <!-- Right Block: cart subtotal & cart total -->
+      <div class="cart-grid-right col-12 col-lg-4">
+
+        
+          <div class="card cart-summary">
+            
+            
+              
+
+    <div class="checkout cart-detailed-actions  js-cart-detailed-actions card-body">
+                <div class="mwd-express-header" style="font-weight: 700; font-size: 1.5rem;margin-bottom: 15px;">Bezahle jetzt gleich mit</div>
+
+                    <div class="text-xs-center">
+                                
+<!-- Start shortcut. Module Paypal -->
+
+  <script>
+                             var sc_init_url = "https:\/\/dev.isi-wash.com\/module\/paypal\/ScInit";
+                                   var scOrderUrl = "https:\/\/dev.isi-wash.com\/module\/paypal\/scOrder";
+                                   var styleSetting = {"label":"paypal","color":"gold","shape":"rect","height":35,"width":425};
+           </script>
+
+  <script>
+      function init() {
+          if (document.readyState == 'complete') {
+              addScripts();
+          } else {
+              document.addEventListener('readystatechange', function () {
+                  if (document.readyState == 'complete') {
+                      addScripts();
+                  }
+              })
+          }
+
+          function addScripts() {
+              var scripts = Array();
+                            var script = document.querySelector('script[data-key="tot-paypal-sdk"]');
+
+              if (null == script) {
+                  var newScript = document.createElement('script');
+                                    newScript.setAttribute('src', 'https://www.paypal.com/sdk/js?client-id=BAAi1N57PbWXShGkv_VveE-w1lttSpLEtZmWsltlf15IavRdO3MWahm-00znUGjcoU-x_TtYMgd-4HyHGs&intent=capture&currency=EUR&locale=de_DE&components=buttons%2Cmarks');
+                                    newScript.setAttribute('data-namespace', 'totPaypalSdkButtons');
+                  
+                  if (false === ('tot-paypal-sdk'.search('jq-lib') === 0 && typeof jQuery === 'function')) {
+                      newScript.setAttribute('data-key', 'tot-paypal-sdk');
+                      scripts.push(newScript);
+                  }
+              }
+                            var script = document.querySelector('script[data-key="shortcut"]');
+
+              if (null == script) {
+                  var newScript = document.createElement('script');
+                                    newScript.setAttribute('src', '/modules/paypal/views/js/shortcut.js?v=6.4.2');
+                  
+                  if (false === ('shortcut'.search('jq-lib') === 0 && typeof jQuery === 'function')) {
+                      newScript.setAttribute('data-key', 'shortcut');
+                      scripts.push(newScript);
+                  }
+              }
+              
+              scripts.forEach(function (scriptElement) {
+                  document.body.appendChild(scriptElement);
+              })
+          };
+      };
+      init();
+
+  </script>
+
+
+
+
+
+
+  <style>
+    [data-container-express-checkout] {
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .cart-grid-body [data-container-express-checkout] {
+      justify-content: flex-end;
+    }
+
+    @media (max-width: 575px) {
+      [data-container-express-checkout] {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+
+  <div data-container-express-checkout data-paypal-source-page="cart">
+    <form data-paypal-payment-form-cart class="paypal_payment_form" action="https://dev.isi-wash.com/module/paypal/ScInit" title="Bezahlen mit PayPal" method="post" data-ajax="false">
+      <input type="hidden" name="express_checkout" value=""/>
+      <input type="hidden" name="current_shop_url" data-paypal-url-page value="" />
+      <input type="hidden" id="source_page" name="source_page" value="cart">
+    </form>
+    <div paypal-button-container></div>
+  </div>
+  <div class="clearfix"></div>
+
+
+
+
+
+  <script>
+      function waitPaypalIsLoaded() {
+          if (typeof totPaypalSdkButtons === 'undefined' || typeof Shortcut === 'undefined') {
+              setTimeout(waitPaypalIsLoaded, 200);
+              return;
+          }
+
+          Shortcut.init();
+
+          if (typeof PAYPAL_MOVE_BUTTON_AT_END != 'undefined') {
+            Shortcut.isMoveButtonAtEnd = PAYPAL_MOVE_BUTTON_AT_END;
+          }
+
+          Shortcut.initButton();
+      }
+
+      waitPaypalIsLoaded();
+  </script>
+
+<!-- End shortcut. Module Paypal -->
+
+
+
+
+<!-- Start bnpl. Module Paypal -->
+
+  <script>
+                             var sc_init_url = "https:\/\/dev.isi-wash.com\/module\/paypal\/ScInit";
+                                   var scOrderUrl = "https:\/\/dev.isi-wash.com\/module\/paypal\/scOrder";
+                                   var bnplColor = "white";
+           </script>
+
+  <script>
+      function init() {
+          if (document.readyState == 'complete') {
+              addScripts();
+          } else {
+              document.addEventListener('readystatechange', function () {
+                  if (document.readyState == 'complete') {
+                      addScripts();
+                  }
+              })
+          }
+
+          function addScripts() {
+              var scripts = Array();
+                            var script = document.querySelector('script[data-key="tot-paypal-bnpl-sdk"]');
+
+              if (null == script) {
+                  var newScript = document.createElement('script');
+                                    newScript.setAttribute('src', 'https://www.paypal.com/sdk/js?client-id=BAAi1N57PbWXShGkv_VveE-w1lttSpLEtZmWsltlf15IavRdO3MWahm-00znUGjcoU-x_TtYMgd-4HyHGs&intent=capture&currency=EUR&locale=de_DE&components=buttons%2Cmarks&enable-funding=paylater&buyer-country=DE');
+                                    newScript.setAttribute('data-namespace', 'totPaypalBnplSdkButtons');
+                                    newScript.setAttribute('data-partner-attribution-id', 'PRESTASHOP_Cart_SPB');
+                  
+                  if (false === ('tot-paypal-bnpl-sdk'.search('jq-lib') === 0 && typeof jQuery === 'function')) {
+                      newScript.setAttribute('data-key', 'tot-paypal-bnpl-sdk');
+                      scripts.push(newScript);
+                  }
+              }
+                            var script = document.querySelector('script[data-key="bnpl"]');
+
+              if (null == script) {
+                  var newScript = document.createElement('script');
+                                    newScript.setAttribute('src', '/modules/paypal/views/js/bnpl.js?v=6.4.2');
+                  
+                  if (false === ('bnpl'.search('jq-lib') === 0 && typeof jQuery === 'function')) {
+                      newScript.setAttribute('data-key', 'bnpl');
+                      scripts.push(newScript);
+                  }
+              }
+              
+              scripts.forEach(function (scriptElement) {
+                  document.body.appendChild(scriptElement);
+              })
+          };
+      };
+      init();
+
+  </script>
+
+
+
+
+
+
+  <style>
+    [data-container-bnpl] {
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .cart-grid-body [data-container-bnpl] {
+      justify-content: flex-end;
+    }
+
+    @media (max-width: 575px) {
+      [data-container-bnpl] {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+
+  <div data-container-bnpl data-paypal-bnpl-source-page="cart">
+    <form data-paypal-bnpl-payment-form-cart class="paypal_payment_form" action="https://dev.isi-wash.com/module/paypal/ScInit" method="post" data-ajax="false">
+      <input type="hidden" name="express_checkout" value=""/>
+      <input type="hidden" name="current_shop_url" data-paypal-url-page value="" />
+      <input type="hidden" id="source_page" name="source_page" value="cart">
+    </form>
+    <div paypal-bnpl-button-container></div>
+  </div>
+  <div class="clearfix"></div>
+
+
+
+
+
+  <script>
+      function waitPaypalSDKIsLoaded() {
+          if (typeof totPaypalBnplSdkButtons === 'undefined' || typeof BNPL === 'undefined') {
+              setTimeout(waitPaypalSDKIsLoaded, 200);
+              return;
+          }
+
+          BNPL.init();
+
+          if (typeof bnplColor != 'undefined') {
+              BNPL.setColor(bnplColor);
+          }
+
+          if (typeof PAYPAL_MOVE_BUTTON_AT_END != 'undefined') {
+            BNPL.isMoveButtonAtEnd = PAYPAL_MOVE_BUTTON_AT_END;
+          }
+
+          BNPL.initButton();
+      }
+
+      waitPaypalSDKIsLoaded();
+  </script>
+
+<!-- End bnpl. Module Paypal -->
+
+
+
+
+
+<div
+        id="AmzCartBtn0444125001740998404"
+        class="amazonPayButton "
+        data-placement="Cart"
+        data-color="Gold"
+        data-design=""
+        data-rendered="0"
+>
+</div>
+<div class="klarnapayment-kec-wrapper"></div>
+
+            </div>
+            </div>
+
+            
+
+            
+              
+    <div class="cart-detailed-totals js-cart-detailed-totals">
+        <div class="card-body cart-detailed-subtotals js-cart-detailed-subtotals">
+                                                <div class="cart-summary-line" id="cart-subtotal-products">
+                        <span class="label js-subtotal">
+                                                                                            Zwischensumme
+                                                    </span>
+                        <span class="value">
+                            109,90 €
+                        </span>
+                                            </div>
+                                                                                            <div class="cart-summary-line" id="cart-subtotal-shipping">
+                        <span class="label">
+                                                            Versandkosten
+                                                    </span>
+                        <span class="value">
+                            kostenlos
+                        </span>
+                                                    <div><small class="value"></small></div>
+                                            </div>
+                                                                </div>
+
+        <hr>
+
+        
+            <div class="card-body cart-summary-totals js-cart-summary-totals">
+
+  
+          <div class="cart-summary-line cart-total">
+                <span class="label">Gesamtpreis</span>
+        <span class="value">109,90 €</span>
+      </div>
+      
+
+
+
+          <div class="cart-summary-line">
+                <span class="label sub">enthaltene MwSt.</span>
+        <span class="value sub">17,55 €</span>
+      </div>
+      
+
+  
+
+</div>
+        
+
+        <hr>
+
+        
+                
+        <div class="block-promo">
+            <div class="cart-voucher js-cart-voucher">
+                
+                <div class="cart-voucher-area">
+                    <div class="promo-code" id="promo-code">
+                        
+                            <div class="alert alert-danger js-error" role="alert">
+                                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <span class="m-l-1 js-error-text"></span>
+                            </div>
+                        
+
+                        
+                            <form action="https://dev.isi-wash.com/warenkorb" data-link-action="add-voucher" method="post" class="">
+                                <div class="input-group">
+                                    <i class="fa fa-tag btn voucher-icon" aria-hidden="true"></i>
+                                    <input type="hidden" name="token" value="ba5f799e77fe377f06f7a048087831fc">
+                                    <input type="hidden" name="addDiscount" value="1">
+                                    <input class="form-control" type="text" name="discount_name" placeholder="Gutschein">
+                                    <button type="submit" class="btn btn-secondary">
+                                        <span>Hinzufügen</span>
+                                    </button>
+                                </div>
+                            </form>
+                        
+                    </div>
+
+                                    </div>
+            </div>
+        </div>
+    
+        
+
+        <hr>
+    </div>
+
+            
+
+                        <a href="https://dev.isi-wash.com/warenkorb?action=show&checkout" class="btn btn-primary btn-lg btn-block">Andere Zahlungsmethoden</a>
+
+          </div>
+        
+
+        
+          
+        
+
+      </div>
+
+      
+
+    </div>
+  </section>
+
+        
+    </div>
+
+
+                
+
+                
+
+            
+            
+        </div>
+        
+    </section>
+    
+    <footer id="footer" class="js-footer">
+        
+            
+  
+
+<div id="footer-container-first" class="footer-container footer-style-2">
+  <div class="container">
+    <div class="row align-items-center">
+
+                <div class="col-sm-6 col-md-4 block-newsletter">
+          <h5 class="mb-3">Zum Newsletter anmelden und 5€ Gutschein sichern</h5>
+          <div class="ps-emailsubscription-block">
+    <form action="//dev.isi-wash.com/?fc=module&module=iqitemailsubscriptionconf&controller=subscription"
+          method="post">
+                <div class="input-group newsletter-input-group ">
+                    <input
+                            name="email"
+                            type="email"
+                            value=""
+                            class="form-control input-subscription"
+                            placeholder="Deine E-Mail-Adresse"
+                            aria-label="Deine E-Mail-Adresse"
+                            required
+                    >
+                    <input type="hidden" name="blockHookName" value="displayFooter" />
+                    <button
+                            class="btn btn-primary btn-subscribe btn-iconic"
+                            name="submitNewsletter"
+                            type="submit"
+                            aria-label="Abonnieren">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i></button>
+                </div>
+                    <p class="mt-2 text-muted ps-emailsubscription-conditions">Sie können Ihr Einverständnis jederzeit widerrufen. Unsere Kontaktinformationen finden Sie u. a. in der Datenschutzerklärung.</p>
+                
+                    <div class="mt-2 text-muted"> </div>
+                        <input type="hidden" name="action" value="0">
+    </form>
+</div>
+
+
+        </div>
+        
+                <div class="col-sm-6 push-md-2 block-social-links text-right">
+          
+
+<ul class="social-links _footer"     itemid="#store-organization">
+        <li class="instagram"><a   href="https://www.instagram.com/isi_wash/" target="_blank" rel="noreferrer noopener"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></a></li>            </ul>
+
+        </div>
+        
+    </div>
+    <div class="row">
+      
+        
+      
+    </div>
+  </div>
+</div>
+
+<div id="footer-container-main" class="footer-container footer-style-2">
+  <div class="container">
+    <div class="row">
+      
+        
+
+
+            <div class="elementor-displayFooter col-12">
+        		<style class="elementor-frontend-stylesheet">.elementor-element.elementor-element-e4u1fbf{padding:10px 0px 0px 0px;}.elementor-element.elementor-element-fsplpsk .elementor-heading-title{font-size:22px;font-family:'Asap', sans-serif, Sans-serif;}.elementor-element.elementor-element-fsplpsk .elementor-widget-container{padding:0px 0px 10px 0px;}.elementor-element.elementor-element-btryebh .elementor-button{color:#ffffff;background-color:#e6500f;}.elementor-element.elementor-element-btryebh .elementor-button:hover{color:#e6500f;background-color:#ffffff;}.elementor-element.elementor-element-btryebh .elementor-widget-container{padding:5px 0px 0px 0px;}.elementor-element.elementor-element-b4k8zn5{text-align:center;}.elementor-element.elementor-element-b4k8zn5 .elementor-heading-title{font-size:22px;font-family:'Asap', sans-serif, Sans-serif;}.elementor-element.elementor-element-b4k8zn5 .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 10px 0px;}.elementor-element.elementor-element-e8omw2y{text-align:center;}.elementor-element.elementor-element-e8omw2y .elementor-social-icon{background-color:#ffffff;color:#005a78 !important;padding:0.5em;}.elementor-element.elementor-element-e8omw2y .elementor-social-icon i{font-size:18px;}.elementor-element.elementor-element-e8omw2y .elementor-social-icon:not(:last-child){margin-right:9px;}.elementor-element.elementor-element-2y23ckq > .elementor-element-populated{background-color:#00455c;}.elementor-element.elementor-element-88hiua6 .elementor-heading-title, .elementor-element.elementor-element-88hiua6 .elementor-heading-title a{color:#ffffff;}.elementor-element.elementor-element-88hiua6 .elementor-heading-title{font-size:22px;font-family:'Asap', sans-serif, Sans-serif;}.elementor-element.elementor-element-88hiua6 .elementor-widget-container{padding:0px 0px 10px 0px;}.elementor-element.elementor-element-c416rq4 .elementor-button{color:#005a78;background-color:#ffffff;border-style:solid;border-width:2px 2px 2px 2px;border-color:#ffffff;}.elementor-element.elementor-element-c416rq4 .elementor-button:hover{color:#005a78;background-color:#ffffff;border-color:rgba(255,255,255,0);}.elementor-element.elementor-element-c416rq4 .elementor-widget-container{padding:5px 0px 0px 0px;}.elementor-element.elementor-element-ywras43{text-align:left;}.elementor-element.elementor-element-ywras43 .elementor-heading-title{font-size:22px;font-family:'Asap', sans-serif, Sans-serif;}.elementor-element.elementor-element-ywras43 .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 10px 0px;}.elementor-element.elementor-element-qskbn9o{text-align:left;}.elementor-element.elementor-element-qskbn9o .elementor-social-icon{background-color:#ffffff;color:#005a78 !important;padding:0.5em;}.elementor-element.elementor-element-qskbn9o .elementor-social-icon i{font-size:18px;}.elementor-element.elementor-element-qskbn9o .elementor-social-icon:not(:last-child){margin-right:9px;}.elementor-element.elementor-element-rzusk7a .elementor-divider-separator{border-top-style:solid;border-top-width:1px;width:100%;}.elementor-element.elementor-element-rzusk7a .elementor-divider{padding-top:15px;padding-bottom:15px;}.elementor-element.elementor-element-l30io45 .elementor-heading-title{font-family:'Asap', sans-serif, Sans-serif;text-transform:uppercase;letter-spacing:0.5px;}.elementor-element.elementor-element-5mqkkbn .elementor-divider-separator{border-top-style:solid;border-top-width:3px;width:10%;}.elementor-element.elementor-element-5mqkkbn .elementor-divider{padding-top:2px;padding-bottom:2px;}.elementor-element.elementor-element-m33535a .elementor-icon-list-icon{font-size:14px;}.elementor-element.elementor-element-m33535a .elementor-icon-list-text{padding-left:0px;font-size:15px;}.elementor-element.elementor-element-m33535a .elementor-widget-container{margin:10px 0px 0px 0px;}.elementor-element.elementor-element-mpkc7n0 .elementor-icon-list-icon{font-size:14px;}.elementor-element.elementor-element-mpkc7n0 .elementor-icon-list-text{font-size:15px;}.elementor-element.elementor-element-9lu80db .elementor-icon-list-text{font-size:15px;}.elementor-element.elementor-element-za63pgx .elementor-icon-list-icon{font-size:14px;}.elementor-element.elementor-element-za63pgx .elementor-icon-list-text{font-size:15px;}.elementor-element.elementor-element-vpif382 .elementor-icon-list-icon{font-size:14px;}.elementor-element.elementor-element-vpif382 .elementor-icon-list-text{font-size:15px;}.elementor-element.elementor-element-cmxc1ye .elementor-icon-list-icon{font-size:14px;}.elementor-element.elementor-element-cmxc1ye .elementor-icon-list-text{font-size:15px;}.elementor-element.elementor-element-uc6gvq5 .elementor-icon-list-icon{font-size:14px;}.elementor-element.elementor-element-uc6gvq5 .elementor-icon-list-text{font-size:15px;}.elementor-element.elementor-element-czd1et0 .elementor-icon-list-icon{font-size:14px;}.elementor-element.elementor-element-czd1et0 .elementor-icon-list-text{font-size:15px;}.elementor-element.elementor-element-jhuavx8 .elementor-heading-title{font-family:'Asap', sans-serif, Sans-serif;text-transform:uppercase;letter-spacing:0.5px;}.elementor-element.elementor-element-n9sj9dn .elementor-divider-separator{border-top-style:solid;border-top-width:3px;width:10%;}.elementor-element.elementor-element-n9sj9dn .elementor-divider{padding-top:2px;padding-bottom:2px;}.elementor-element.elementor-element-b5srqbj .elementor-icon-list-icon{font-size:14px;}.elementor-element.elementor-element-b5srqbj .elementor-icon-list-text{font-size:15px;}.elementor-element.elementor-element-b5srqbj .elementor-widget-container{margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-element.elementor-element-2zrxpkp .elementor-icon-list-icon{font-size:14px;}.elementor-element.elementor-element-2zrxpkp .elementor-icon-list-text{font-size:15px;}.elementor-element.elementor-element-1f8k0mr .elementor-heading-title{font-family:'Asap', sans-serif, Sans-serif;text-transform:uppercase;letter-spacing:0.5px;}.elementor-element.elementor-element-snnpb6q .elementor-divider-separator{border-top-style:solid;border-top-width:3px;width:10%;}.elementor-element.elementor-element-snnpb6q .elementor-divider{padding-top:2px;padding-bottom:2px;}.elementor-element.elementor-element-4nfg3iv .elementor-icon-list-icon{font-size:14px;}.elementor-element.elementor-element-4nfg3iv .elementor-icon-list-text{font-size:15px;}.elementor-element.elementor-element-4nfg3iv .elementor-widget-container{margin:10px 0px 0px 0px;}.elementor-element.elementor-element-occva62 .elementor-heading-title{font-family:'Asap', sans-serif, Sans-serif;text-transform:uppercase;letter-spacing:0.5px;}.elementor-element.elementor-element-716mbkm .elementor-divider-separator{border-top-style:solid;border-top-width:3px;width:10%;}.elementor-element.elementor-element-716mbkm .elementor-divider{padding-top:2px;padding-bottom:2px;}.elementor-element.elementor-element-jp62hw1{text-align:left;}.elementor-element.elementor-element-jp62hw1 .elementor-image img{max-width:80%;opacity:1;}.elementor-element.elementor-element-jp62hw1 .elementor-widget-container{margin:10px 0px 0px -10px;padding:5px 20px 0px 0px;}.elementor-element.elementor-element-m9bgyje .elementor-divider-separator{border-top-style:solid;border-top-width:1px;width:100%;}.elementor-element.elementor-element-m9bgyje .elementor-divider{padding-top:15px;padding-bottom:15px;}.elementor-element.elementor-element-rh11dsa .elementor-widget-container{padding:8px 0px 8px 0px;}.elementor-element.elementor-element-wz5pyx7 .elementor-widget-container{padding:8px 0px 8px 0px;}@media(max-width: 991px){.elementor-element.elementor-element-e8omw2y{text-align:center;}.elementor-element.elementor-element-qskbn9o{text-align:center;}.elementor-element.elementor-element-jp62hw1{text-align:center;}}@media(max-width: 767px){.elementor-element.elementor-element-133t0ua > .elementor-element-populated{padding:10px 0px 0px 0px;}.elementor-element.elementor-element-fsplpsk{text-align:center;}.elementor-element.elementor-element-b4k8zn5 .elementor-widget-container{padding:15px 0px 10px 0px;}.elementor-element.elementor-element-e8omw2y{text-align:center;}.elementor-element.elementor-element-2y23ckq > .elementor-element-populated{padding:25px 0px 25px 0px;}.elementor-element.elementor-element-88hiua6{text-align:center;}.elementor-element.elementor-element-ywras43 .elementor-widget-container{padding:20px 0px 10px 0px;}.elementor-element.elementor-element-qskbn9o{text-align:left;}.elementor-element.elementor-element-iez2ip3 > .elementor-element-populated{padding:0px 0px 15px 0px;}.elementor-element.elementor-element-4txon29 > .elementor-element-populated{padding:0px 0px 15px 0px;}.elementor-element.elementor-element-adjqit7 > .elementor-element-populated{padding:0px 0px 15px 0px;}.elementor-element.elementor-element-jp62hw1{text-align:center;}.elementor-element.elementor-element-rh11dsa .elementor-text-editor{text-align:center;}.elementor-element.elementor-element-wz5pyx7 .elementor-text-editor{text-align:center;}}@media (min-width: 768px) {.elementor-element.elementor-element-133t0ua{width:55.000%;}.elementor-element.elementor-element-et4rcrn{width:15.009%;}.elementor-element.elementor-element-a2mmrdu{width:19.838%;}}</style>
+				<div class="elementor">
+											                        <div class="elementor-section elementor-element elementor-element-e4u1fbf elementor-top-section elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-hidden-phone" data-element_type="section">
+                            
+                           
+
+                            <div class="elementor-container  elementor-column-gap-default      "
+                                                                >
+                                <div class="elementor-row  ">
+                                                                
+                            		<div class="elementor-column elementor-element elementor-element-133t0ua elementor-col-33 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+				<div class="elementor-widget-wrap">
+		        <div class="elementor-widget elementor-element elementor-element-fsplpsk elementor-widget-heading" data-element_type="heading">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default none"><span>Zum Newsletter anmelden</br>und 5€ Gutschein sichern</span></h2>        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-btryebh elementor-widget-button elementor-align-left elementor-mobile-align-center" data-element_type="button">
+                <div class="elementor-widget-container">
+            		<div class="elementor-button-wrapper">
+			<a href="newsletter-anmeldung" class="elementor-button-link elementor-button btn elementor-size-medium btn-secondary btn-traditional">
+				<span class="elementor-button-content-wrapper">
+										<span class="elementor-button-text">JETZT ANMELDEN</span>
+				</span>
+			</a>
+		</div>
+		        </div>
+                </div>
+        				</div>
+			</div>
+		</div>
+		                             
+                                                            
+                            		<div class="elementor-column elementor-element elementor-element-et4rcrn elementor-col-33 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap">
+				<div class="elementor-widget-wrap">
+						</div>
+			</div>
+		</div>
+		                             
+                                                            
+                            		<div class="elementor-column elementor-element elementor-element-a2mmrdu elementor-col-33 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+				<div class="elementor-widget-wrap">
+		        <div class="elementor-widget elementor-element elementor-element-b4k8zn5 elementor-widget-heading" data-element_type="heading">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default none"><span>Folge uns</span></h2>        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-e8omw2y elementor-widget-social-icons elementor-shape-circle" data-element_type="social-icons">
+                <div class="elementor-widget-container">
+            		<div class="elementor-social-icons-wrapper">
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook" href="https://www.facebook.com/isiwashofficial/" target="_blank" rel="noopener noreferrer">
+					<i class="fa fa-facebook"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram" href="https://www.instagram.com/isi_wash/" target="_blank" rel="noopener noreferrer">
+					<i class="fa fa-instagram"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest" href="https://pinterest.com/isi_wash/" target="_blank" rel="noopener noreferrer">
+					<i class="fa fa-pinterest"></i>
+				</a>
+					</div>
+		        </div>
+                </div>
+        				</div>
+			</div>
+		</div>
+		                             
+                                                            </div>
+                                
+                                                            </div>
+                        </div>
+                											                        <div class="elementor-section elementor-element elementor-element-yev7jt6 elementor-top-section elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-hidden-desktop elementor-hidden-tablet" data-element_type="section">
+                            
+                           
+
+                            <div class="elementor-container  elementor-column-gap-default      "
+                                                                >
+                                <div class="elementor-row  ">
+                                                                
+                            		<div class="elementor-column elementor-element elementor-element-2y23ckq elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+				<div class="elementor-widget-wrap">
+		        <div class="elementor-widget elementor-element elementor-element-88hiua6 elementor-widget-heading" data-element_type="heading">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default none"><span>Zum Newsletter anmelden</br>und 5€ Gutschein sichern</span></h2>        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-c416rq4 elementor-widget-button elementor-align-left elementor-mobile-align-center" data-element_type="button">
+                <div class="elementor-widget-container">
+            		<div class="elementor-button-wrapper">
+			<a href="newsletter-anmeldung" class="elementor-button-link elementor-button btn elementor-size-medium btn-secondary btn-block">
+				<span class="elementor-button-content-wrapper">
+										<span class="elementor-button-text">JETZT ANMELDEN</span>
+				</span>
+			</a>
+		</div>
+		        </div>
+                </div>
+        				</div>
+			</div>
+		</div>
+		                             
+                                                            </div>
+                                
+                                                            </div>
+                        </div>
+                											                        <div class="elementor-section elementor-element elementor-element-kvk1b1c elementor-top-section elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-hidden-desktop elementor-hidden-tablet" data-element_type="section">
+                            
+                           
+
+                            <div class="elementor-container  elementor-column-gap-default      "
+                                                                >
+                                <div class="elementor-row  ">
+                                                                
+                            		<div class="elementor-column elementor-element elementor-element-ps9hyxb elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+				<div class="elementor-widget-wrap">
+		        <div class="elementor-widget elementor-element elementor-element-ywras43 elementor-widget-heading" data-element_type="heading">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default none"><span>Folge uns</span></h2>        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-qskbn9o elementor-widget-social-icons elementor-shape-circle" data-element_type="social-icons">
+                <div class="elementor-widget-container">
+            		<div class="elementor-social-icons-wrapper">
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook" href="https://www.facebook.com/isiwashofficial/" target="_blank" rel="noopener noreferrer">
+					<i class="fa fa-facebook"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram" href="https://www.instagram.com/isi_wash/" target="_blank" rel="noopener noreferrer">
+					<i class="fa fa-instagram"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest" href="https://pinterest.com/isi_wash/" target="_blank" rel="noopener noreferrer">
+					<i class="fa fa-pinterest"></i>
+				</a>
+					</div>
+		        </div>
+                </div>
+        				</div>
+			</div>
+		</div>
+		                             
+                                                            </div>
+                                
+                                                            </div>
+                        </div>
+                											                        <div class="elementor-section elementor-element elementor-element-oa89v0f elementor-top-section elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section">
+                            
+                           
+
+                            <div class="elementor-container  elementor-column-gap-default      "
+                                                                >
+                                <div class="elementor-row  ">
+                                                                
+                            		<div class="elementor-column elementor-element elementor-element-o5qqhm8 elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+				<div class="elementor-widget-wrap">
+		        <div class="elementor-widget elementor-element elementor-element-rzusk7a elementor-widget-divider" data-element_type="divider">
+                <div class="elementor-widget-container">
+            		<div class="elementor-divider">
+			<span class="elementor-divider-separator"></span>
+		</div>
+		        </div>
+                </div>
+        				</div>
+			</div>
+		</div>
+		                             
+                                                            </div>
+                                
+                                                            </div>
+                        </div>
+                											                        <div class="elementor-section elementor-element elementor-element-j86bd9v elementor-top-section elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section">
+                            
+                           
+
+                            <div class="elementor-container  elementor-column-gap-default      "
+                                                                >
+                                <div class="elementor-row  ">
+                                                                
+                            		<div class="elementor-column elementor-element elementor-element-iez2ip3 elementor-col-25 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+				<div class="elementor-widget-wrap">
+		        <div class="elementor-widget elementor-element elementor-element-l30io45 elementor-widget-heading" data-element_type="heading">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default none"><span>Informationen</span></h2>        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-5mqkkbn elementor-widget-divider" data-element_type="divider">
+                <div class="elementor-widget-container">
+            		<div class="elementor-divider">
+			<span class="elementor-divider-separator"></span>
+		</div>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-m33535a elementor-widget-icon-list" data-element_type="icon-list">
+                <div class="elementor-widget-container">
+            		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+					<a href="/lieferung">						<span class="elementor-icon-list-icon">
+							<i class="fa fa-angle-right"></i>
+						</span>
+										<span class="elementor-icon-list-text">Lieferung</span>
+					</a>				</li>
+						</ul>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-mpkc7n0 elementor-widget-icon-list" data-element_type="icon-list">
+                <div class="elementor-widget-container">
+            		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+					<a href="/sichere-zahlung">						<span class="elementor-icon-list-icon">
+							<i class="fa fa-angle-right"></i>
+						</span>
+										<span class="elementor-icon-list-text">Sichere Zahlung</span>
+					</a>				</li>
+						</ul>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-9lu80db elementor-widget-icon-list" data-element_type="icon-list">
+                <div class="elementor-widget-container">
+            		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+					<a href="/uber-uns">						<span class="elementor-icon-list-icon">
+							<i class="fa fa-angle-right"></i>
+						</span>
+										<span class="elementor-icon-list-text">Über uns</span>
+					</a>				</li>
+						</ul>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-za63pgx elementor-widget-icon-list" data-element_type="icon-list">
+                <div class="elementor-widget-container">
+            		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+					<a href="/allgemeine-geschaeftsbedingungen">						<span class="elementor-icon-list-icon">
+							<i class="fa fa-angle-right"></i>
+						</span>
+										<span class="elementor-icon-list-text">Allgemeine Geschäftsbedingungen</span>
+					</a>				</li>
+						</ul>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-vpif382 elementor-widget-icon-list" data-element_type="icon-list">
+                <div class="elementor-widget-container">
+            		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+					<a href="/widerrufsrecht">						<span class="elementor-icon-list-icon">
+							<i class="fa fa-angle-right"></i>
+						</span>
+										<span class="elementor-icon-list-text">Widerrufsrecht</span>
+					</a>				</li>
+						</ul>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-cmxc1ye elementor-widget-icon-list" data-element_type="icon-list">
+                <div class="elementor-widget-container">
+            		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+					<a href="/kontakt">						<span class="elementor-icon-list-icon">
+							<i class="fa fa-angle-right"></i>
+						</span>
+										<span class="elementor-icon-list-text">Kontaktiere uns</span>
+					</a>				</li>
+						</ul>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-uc6gvq5 elementor-widget-icon-list" data-element_type="icon-list">
+                <div class="elementor-widget-container">
+            		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+					<a href="/faqs">						<span class="elementor-icon-list-icon">
+							<i class="fa fa-angle-right"></i>
+						</span>
+										<span class="elementor-icon-list-text">FAQs</span>
+					</a>				</li>
+						</ul>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-czd1et0 elementor-widget-icon-list" data-element_type="icon-list">
+                <div class="elementor-widget-container">
+            		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+					<a href="/schweizer-kunden-meineinkaufch">						<span class="elementor-icon-list-icon">
+							<i class="fa fa-angle-right"></i>
+						</span>
+										<span class="elementor-icon-list-text">Für unsere Schweizer Kunden</span>
+					</a>				</li>
+						</ul>
+		        </div>
+                </div>
+        				</div>
+			</div>
+		</div>
+		                             
+                                                            
+                            		<div class="elementor-column elementor-element elementor-element-4txon29 elementor-col-25 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+				<div class="elementor-widget-wrap">
+		        <div class="elementor-widget elementor-element elementor-element-jhuavx8 elementor-widget-heading" data-element_type="heading">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default none"><span>Deine Vorteile</span></h2>        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-n9sj9dn elementor-widget-divider" data-element_type="divider">
+                <div class="elementor-widget-container">
+            		<div class="elementor-divider">
+			<span class="elementor-divider-separator"></span>
+		</div>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-b5srqbj elementor-widget-icon-list" data-element_type="icon-list">
+                <div class="elementor-widget-container">
+            		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+					<a href="/30-tage-geld-zurueck-garantie">						<span class="elementor-icon-list-icon">
+							<i class="fa fa-angle-right"></i>
+						</span>
+										<span class="elementor-icon-list-text">30 Tage Geld-zurück-Garantie</span>
+					</a>				</li>
+						</ul>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-2zrxpkp elementor-widget-icon-list" data-element_type="icon-list">
+                <div class="elementor-widget-container">
+            		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+					<a href="/umweltfreundlich">						<span class="elementor-icon-list-icon">
+							<i class="fa fa-angle-right"></i>
+						</span>
+										<span class="elementor-icon-list-text">Umweltfreundlich</span>
+					</a>				</li>
+						</ul>
+		        </div>
+                </div>
+        				</div>
+			</div>
+		</div>
+		                             
+                                                            
+                            		<div class="elementor-column elementor-element elementor-element-adjqit7 elementor-col-25 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+				<div class="elementor-widget-wrap">
+		        <div class="elementor-widget elementor-element elementor-element-1f8k0mr elementor-widget-heading" data-element_type="heading">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default none"><span>Dein Kundenbereich</span></h2>        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-snnpb6q elementor-widget-divider" data-element_type="divider">
+                <div class="elementor-widget-container">
+            		<div class="elementor-divider">
+			<span class="elementor-divider-separator"></span>
+		</div>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-4nfg3iv elementor-widget-icon-list" data-element_type="icon-list">
+                <div class="elementor-widget-container">
+            		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item" >
+					<a href="/anmeldung">						<span class="elementor-icon-list-icon">
+							<i class="fa fa-angle-right"></i>
+						</span>
+										<span class="elementor-icon-list-text">Dein Konto</span>
+					</a>				</li>
+						</ul>
+		        </div>
+                </div>
+        				</div>
+			</div>
+		</div>
+		                             
+                                                            
+                            		<div class="elementor-column elementor-element elementor-element-bi56ydo elementor-col-25 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+				<div class="elementor-widget-wrap">
+		        <div class="elementor-widget elementor-element elementor-element-occva62 elementor-widget-heading" data-element_type="heading">
+                <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default none"><span>Zahlungsarten</span></h2>        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-716mbkm elementor-widget-divider" data-element_type="divider">
+                <div class="elementor-widget-container">
+            		<div class="elementor-divider">
+			<span class="elementor-divider-separator"></span>
+		</div>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-jp62hw1 elementor-widget-image" data-element_type="image">
+                <div class="elementor-widget-container">
+            <div class="elementor-image"><a href="/sichere-zahlung"><img loading="lazy"  src="https://dev.isi-wash.com/img/cms/Startseite/payment_methods_logos_v1_weiss.png" width="400" height="200" alt="" /></a></div>        </div>
+                </div>
+        				</div>
+			</div>
+		</div>
+		                             
+                                                            </div>
+                                
+                                                            </div>
+                        </div>
+                											                        <div class="elementor-section elementor-element elementor-element-47a6iys elementor-top-section elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section">
+                            
+                           
+
+                            <div class="elementor-container  elementor-column-gap-default      "
+                                                                >
+                                <div class="elementor-row  ">
+                                                                
+                            		<div class="elementor-column elementor-element elementor-element-0rtoeft elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+				<div class="elementor-widget-wrap">
+		        <div class="elementor-widget elementor-element elementor-element-m9bgyje elementor-widget-divider" data-element_type="divider">
+                <div class="elementor-widget-container">
+            		<div class="elementor-divider">
+			<span class="elementor-divider-separator"></span>
+		</div>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-z69ikzp elementor-widget-html" data-element_type="html">
+                <div class="elementor-widget-container">
+            <div class="container">
+                <div class="row align-items-center">
+
+
+                            
+                            <div class="col col-4 col-sm-auto footer-badge-container">
+                                <a href="https://dev.isi-wash.com/30-tage-geld-zurueck-garantie" aria-label="30 Tage Geld zurück">
+                                
+                                    <img data-pagespeed-no-defer="" src="/img/cms/Footer/isi-30-Tage-Geld_orange_200x200_ver2.png" data-original="/img/cms/Footer/isi-30-Tage-Geld_orange_200x200_ver2.png" target="_blank"alt="30 Tage Geld zurück" class="footer-badge-30tage">
+                                </a>
+                            </div>
+
+                            
+                            <div class="col col-4 col-sm-auto footer-badge-container">
+                                                                    <a href="https://dermatest.com/de/" target="_blank" aria-label="Dermatest-Siegel">
+                                        <img data-pagespeed-no-defer="" src="/img/cms/Footer/dermatest_Siegel_dermatestGarantie_vertikal_RGB_2024_November_ENG.png" data-original="/img/cms/Footer/dermatest_Siegel_dermatestGarantie_vertikal_RGB_2024_November_ENG.png" class="footer-badge-derma" alt="Dermatest-Siegel">
+                                    </a>
+                                                            </div>
+
+<div class="col col-4 col-sm-auto footer-badge-container">
+                                                                    <a href="https://www.echte-bewertungen.com/kundenmeinungen/isi-wash.com" target="_blank" aria-label="Echte-Bewertungen-Siegel">
+                                        <img data-pagespeed-no-defer="" src="/img/cms/Footer/eb_footer_widget.svg" data-original="/img/cms/Footer/eb_footer_widget.svg" class="footer-badge-ebsiegel" alt="Echte-Bewertungen-Siegel">
+                                    </a>
+                                                            </div>
+
+
+                </div>
+            </div>        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-rh11dsa elementor-widget-text-editor" data-element_type="text-editor">
+                <div class="elementor-widget-container">
+            		<div class="elementor-text-editor rte-content"><p><span style="color: #ffffff; text-decoration: none;"><a href="https://dev.isi-wash.com/impressum" style="color: #ffffff; text-decoration: none;">Impressum</a> | <a href="https://dev.isi-wash.com/allgemeine-geschaeftsbedingungen" style="color: #ffffff; text-decoration: none;">AGB</a> | <a href="https://dev.isi-wash.com/datenschutzerklaerung" style="color: #ffffff; text-decoration: none;">Datenschutzerklärung</a> | <a href="https://dev.isi-wash.com/img/cms/PDFs/SDS_DE_ISI_WASH_V1_de.pdf" style="color: #ffffff; text-decoration: none;">Sicherheitsdatenblatt</a></span></p></div>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-wz5pyx7 elementor-widget-text-editor" data-element_type="text-editor">
+                <div class="elementor-widget-container">
+            		<div class="elementor-text-editor rte-content"><p><span style="color: #ffffff;">© 2025</span></p></div>
+		        </div>
+                </div>
+                <div class="elementor-widget elementor-element elementor-element-c3crkph elementor-widget-html" data-element_type="html">
+                <div class="elementor-widget-container">
+            <style>
+
+#footer-copyrights {
+    border-top: none;
+}
+.footer-badge-derma {
+    height: 110px!important;
+}
+.footer-badge-30tage {
+    height: 85px!important;
+}
+
+@media (max-width: 767px) {
+.footer-badge-container{
+    margin-left: auto;
+    margin-right: auto;
+}}
+
+</style>        </div>
+                </div>
+        				</div>
+			</div>
+		</div>
+		                             
+                                                            </div>
+                                
+                                                            </div>
+                        </div>
+                							</div>
+		
+        </div>
+    
+
+
+
+
+      
+    </div>
+    <div class="row">
+      
+        
+      
+    </div>
+  </div>
+</div>
+
+
+    
+        <div id="footer-copyrights" class="_footer-copyrights-1 dropup">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    
+                    
+                </div>
+            </div>
+        </div>
+    
+
+        
+    </footer>
+
+</main>
+
+
+    
+ <template id="password-feedback">
+ <div
+   class="password-strength-feedback mt-2"
+   style="display: none;"
+ >
+   <div class="progress-container">
+     <div class="progress mb-3">
+       <div class="progress-bar" role="progressbar" value="50" aria-valuemin="0" aria-valuemax="100"></div>
+     </div>
+   </div>
+   <script type="text/javascript" class="js-hint-password">
+            {"0":"Sehr schwach","1":"Schwach","2":"Durchschnitt","3":"Stark","4":"Sehr stark","Straight rows of keys are easy to guess":"Nebeneinander liegende Tastenreihen sind leicht zu erraten","Short keyboard patterns are easy to guess":"Kurze Tastatur-Muster sind leicht zu erraten","Use a longer keyboard pattern with more turns":"Verwenden Sie ein l\u00e4ngeres Tastatur-Muster mit mehr Zuf\u00e4llen","Repeats like \"aaa\" are easy to guess":"Wiederholungen wie \u201eaaa\u201c sind leicht zu erraten","Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\"":"Wiederholungen wie \u201eabcabcabc\u201c sind nur etwas schwerer zu erraten als \u201eabc\u201c","Sequences like abc or 6543 are easy to guess":"Zeichenfolgen wie \u201eabc\u201c oder \u201e6543\u201c sind leicht zu erraten.","Recent years are easy to guess":"Aktuelle Jahre sind leicht zu erraten","Dates are often easy to guess":"Datumsangaben sind oft leicht zu erraten","This is a top-10 common password":"Dies ist ein g\u00e4ngiges Top-10-Passwort","This is a top-100 common password":"Dies ist ein g\u00e4ngiges Top-100-Passwort","This is a very common password":"Dies ist ein sehr g\u00e4ngiges Passwort","This is similar to a commonly used password":"Dies \u00e4hnelt einem g\u00e4ngigen Passwort","A word by itself is easy to guess":"Ein einzelnes Wort ist leicht zu erraten","Names and surnames by themselves are easy to guess":"Vor- und Nachnamen sind leicht zu erraten","Common names and surnames are easy to guess":"G\u00e4ngige Vor- und Nachnamen sind leicht zu erraten","Use a few words, avoid common phrases":"Verwenden Sie mehrere W\u00f6rter, vermeiden Sie g\u00e4ngige Ausdr\u00fccke.","No need for symbols, digits, or uppercase letters":"Symbole, Ziffern oder Gro\u00dfbuchstaben sind nicht notwendig","Avoid repeated words and characters":"Vermeiden Sie Wort- und Zeichenwiederholungen","Avoid sequences":"Vermeiden Sie Sequenzen","Avoid recent years":"Vermeiden Sie aktuelle Jahreszahlen","Avoid years that are associated with you":"Vermeiden Sie Jahreszahlen, die mit Ihnen in Verbindung gebracht werden k\u00f6nnen","Avoid dates and years that are associated with you":"Vermeiden Sie Datums- und Jahresangaben, die mit Ihnen in Verbindung gebracht werden k\u00f6nnen","Capitalization doesn't help very much":"Gro\u00dfschreibung ist nicht sehr hilfreich","All-uppercase is almost as easy to guess as all-lowercase":"Gro\u00dfschreibung ist fast genau so leicht zu erraten wie Kleinschreibung","Reversed words aren't much harder to guess":"Umgekehrte W\u00f6rter sind nicht viel schwerer zu erraten","Predictable substitutions like '@' instead of 'a' don't help very much":"H\u00e4ufig verwendete Ersetzungen wie \u201e@\u201c anstelle von \u201ea\u201c sind nicht sehr zweckdienlich.","Add another word or two. Uncommon words are better.":"Erg\u00e4nzen Sie ein oder zwei W\u00f6rter. Selten gebrauchte W\u00f6rter sind besser."}
+        </script>
+
+   <div class="password-strength-text"></div>
+   <div class="password-requirements text-muted">
+     <p class="password-requirements-length" data-translation="Bitte gib ein Passwort zwischen %s und %s Zeichen ein">
+       <i class="fa fa-check"></i>
+       <span></span>
+     </p>
+     <p class="password-requirements-score" data-translation="Der Minimumwert muss sein: %s">
+       <i class="fa fa-check"></i>
+       <span></span>
+     </p>
+   </div>
+ </div>
+</template>      <script src="https://dev.isi-wash.com/themes/core.js" ></script>
+  <script src="https://dev.isi-wash.com/themes/warehouse/assets/js/theme.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/ps_emailsubscription/views/js/ps_emailsubscription.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/stripe_official/views/js/checkout.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/stripe_official/views/js/expressCheckout.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/klarnapayment/views/js/front/klarna_express_checkout/klarna_express_checkout_listener.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/iqitcountdown/views/js/front.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/ph_simpleblog/js/jquery.fitvids.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/mwdpscommons/views/js/features/widgets/mwd-widget-embed.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/mwdpscommons/views/js/features/widgets/mwd-widget-usp.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/mwdpscommons/views/js/vendor/slick-1.8.1.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/mwdpscommons/views/js/features/mwd-elementor-slider.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/netreviews/views/js/avisverifies-tpl.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/mwdpsisiwash//views/js/widgets/elementor-custom-button.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/mwdpsisiwash//views/js/import/isiwash.js" ></script>
+  <script src="https://static-eu.payments-amazon.com/checkout.js" ></script>
+  <script src="https://dev.isi-wash.com/js/jquery/plugins/fancybox/jquery.fancybox.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/amazonpay/views/js/button.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/iqitelementor/views/lib/instagram-lite-master/instagramLite.min.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/iqitelementor/views/lib/jquery-numerator/jquery-numerator.min.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/iqitelementor/views/lib/lottie-player/lottie-player.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/iqitelementor/views/js/frontend.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/iqitmegamenu/views/js/front.js" ></script>
+  <script src="https://dev.isi-wash.com/themes/warehouse/modules/ph_simpleblog/views/js/ph_simpleblog-17.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/ph_simpleblog/js/masonry.pkgd.min.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/iqitthemeeditor/views/js/custom_s_1.js" ></script>
+  <script src="https://dev.isi-wash.com/themes/warehouse/assets/js/custom.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/revsliderprestashop/public/assets/js/rbtools.min.js" ></script>
+  <script src="https://dev.isi-wash.com/modules/revsliderprestashop/public/assets/js/rs6.min.js" ></script>
+
+
+
+
+
+    
+
+
+<button id="back-to-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</button>
+
+<div id="cart-error-toast" class="toast ns-box ns-show ns-box-danger hide" role="alert" aria-live="assertive" aria-atomic="true" style="position: fixed; top: 2rem; right: 2rem; z-index: 999999;" data-delay="4000">
+</div>
+
+
+
+
+            
+
+
+
+
+</body>
+
+</html>
