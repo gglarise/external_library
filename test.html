@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questions & Answers Viewer</title>
+    <style>
+        /* --- CSS for Styling the Table and Dropdown --- */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        /* Style for the dropdown container */
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        select {
+            padding: 8px 12px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            background: #fff;
+        }
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background: #2a637d; /* A more professional blue */
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+        /* Highlight the first column (Question) */
+        td:first-child {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dive Exam Review 📚</h1>
+
+    <div class="controls">
+        <label for="exam-selector">Select Exam:</label>
+        <select id="exam-selector"></select>
+    </div>
+
+    <table id="qaTable">
+        <thead>
+            <tr>
+                <th>Question No.</th>
+                <th>Correct Answer(s)</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tbody>
+    </table>
+
+    <script>
+        // --- JavaScript for Data Handling and Table Rendering ---
+
+        // The JSON data you provided, slightly restructured for cleaner access
+        const EXAM_DATA = {
+            "Tec50": [
+                { "Question": 1, "Answer": "1-3-4" },
+                { "Question": 2, "Answer": "1-4" },
+                { "Question": 3, "Answer": "1-2-3-4" },
+                { "Question": 4, "Answer": "1" },
+                { "Question": 5, "Answer": "2-4-5-6" },
+                { "Question": 6, "Answer": "1-2-3-4" },
+                { "Question": 7, "Answer": "2" },
+                { "Question": 8, "Answer": "4" },
+                { "Question": 9, "Answer": "3" },
+                { "Question": 10, "Answer": "1-3" },
+                { "Question": 11, "Answer": "1" },
+                { "Question": 12, "Answer": "1-2-3-4" },
+                { "Question": 13, "Answer": "2" },
+                { "Question": 14, "Answer": "2" },
+                { "Question": 15, "Answer": "3-4" },
+                { "Question": 16, "Answer": "1-2-3-4" },
+                { "Question": 17, "Answer": "1" },
+                { "Question": 18, "Answer": "2" },
+                { "Question": 19, "Answer": "1-2-3" },
+                { "Question": 20, "Answer": "1-2-3-4" },
+                { "Question": 21, "Answer": "1-2-3-4-5" },
+                { "Question": 22, "Answer": "1-3-4" },
+                { "Question": 23, "Answer": "1-2-3" },
+                { "Question": 24, "Answer": "2-3" },
+                { "Question": 25, "Answer": "1" },
+                { "Question": 26, "Answer": "2" },
+                { "Question": 27, "Answer": "1-2-3" },
+                { "Question": 28, "Answer": "2" },
+                { "Question": 29, "Answer": "1" },
+                { "Question": 30, "Answer": "1" },
+                { "Question": 31, "Answer": "1-4" },
+                { "Question": 32, "Answer": "1" },
+                { "Question": 33, "Answer": "2-3-4" },
+                { "Question": 34, "Answer": "1-4" },
+                { "Question": 35, "Answer": "1" },
+                { "Question": 36, "Answer": "2" },
+                { "Question": 37, "Answer": "2" },
+                { "Question": 38, "Answer": "1-2-3-4" },
+                { "Question": 39, "Answer": "1-2" },
+                { "Question": 40, "Answer": "1" },
+                { "Question": 41, "Answer": "1" },
+                { "Question": 42, "Answer": "1" },
+                { "Question": 43, "Answer": "2" },
+                { "Question": 44, "Answer": "1-2-3-4" },
+                { "Question": 45, "Answer": "1" },
+                { "Question": 46, "Answer": "1-2-3-4" },
+                { "Question": 47, "Answer": "1-2-3-4" },
+                { "Question": 48, "Answer": "1-2" },
+                { "Question": 49, "Answer": "2" },
+                { "Question": 50, "Answer": "1-2-3-4" },
+                { "Question": 51, "Answer": "1" },
+                { "Question": 52, "Answer": "1-2-3-4" },
+                { "Question": 53, "Answer": "2" },
+                { "Question": 54, "Answer": "1-2-3-4" },
+                { "Question": 55, "Answer": "1" }
+            ],
+            "Tec50 Trimix": [
+                { "Question": 1, "Answer": "1-3-4" },
+                { "Question": 2, "Answer": "2-3" },
+                { "Question": 3, "Answer": "3" },
+                { "Question": 4, "Answer": "1" },
+                { "Question": 5, "Answer": "3" },
+                { "Question": 6, "Answer": "4" },
+                { "Question": 7, "Answer": "1-3" },
+                { "Question": 8, "Answer": "2-4" },
+                { "Question": 9, "Answer": "1" },
+                { "Question": 10, "Answer": "1-4" },
+                { "Question": 11, "Answer": "2" },
+                { "Question": 12, "Answer": "1" },
+                { "Question": 13, "Answer": "1" },
+                { "Question": 14, "Answer": "4" },
+                { "Question": 15, "Answer": "1-2-3" },
+                { "Question": 16, "Answer": "1" },
+                { "Question": 17, "Answer": "2-4" },
+                { "Question": 18, "Answer": "1" },
+                { "Question": 19, "Answer": "1" },
+                { "Question": 20, "Answer": "2-3" },
+                { "Question": 21, "Answer": "2-3-4" },
+                { "Question": 22, "Answer": "1-2-3" },
+                { "Question": 23, "Answer": "2" },
+                { "Question": 24, "Answer": "1-2-3" },
+                { "Question": 25, "Answer": "1" },
+                { "Question": 26, "Answer": "2-3" }
+            ]
+        };
+
+        const selector = document.getElementById("exam-selector");
+        const tbody = document.querySelector("#qaTable tbody");
+
+        /**
+         * Renders the data for a specific exam key into the table.
+         * @param {string} examKey - The key of the exam data in EXAM_DATA.
+         */
+        function renderTable(examKey) {
+            // Get the data for the selected exam
+            const dataToDisplay = EXAM_DATA[examKey];
+
+            // Clear the current table body
+            tbody.innerHTML = "";
+
+            if (!dataToDisplay) {
+                tbody.innerHTML = '<tr><td colspan="2">No data found for this exam.</td></tr>';
+                return;
+            }
+
+            // Iterate through the data and create table rows
+            dataToDisplay.forEach(item => {
+                const row = document.createElement("tr");
+                // The keys 'Question' and 'Answer' are based on the clean structure above
+                row.innerHTML = `<td>${item.Question}</td><td>${item.Answer}</td>`;
+                tbody.appendChild(row);
+            });
+        }
+
+        /**
+         * Initializes the dropdown with available exam names and sets up the change listener.
+         */
+        function initializeSelector() {
+            // Get all exam names (keys) from the EXAM_DATA object
+            const examNames = Object.keys(EXAM_DATA);
+
+            // Populate the dropdown
+            examNames.forEach(name => {
+                const option = document.createElement("option");
+                option.value = name;
+                option.textContent = name;
+                selector.appendChild(option);
+            });
+
+            // Add an event listener to re-render the table when a new exam is selected
+            selector.addEventListener('change', (event) => {
+                renderTable(event.target.value);
+            });
+
+            // Load the first exam by default
+            if (examNames.length > 0) {
+                renderTable(examNames[0]);
+            }
+        }
+
+        // Run the initialization function when the script loads
+        initializeSelector();
+    </script>
+</body>
+</html>
